@@ -1,37 +1,53 @@
 {
-  "name": "frontend",
+  "name": "my_react_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "nodemon": "^2.0.5",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "counterpart": "^0.18.6",
+    "emailjs-com": "^2.6.3",
+    "file-saver": "^2.0.2",
+    "google-map-react": "^2.1.3",
+    "i18next": "^19.8.2",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-http-backend": "^1.0.21",
+    "infinite-react-carousel": "^1.2.11",
+    "local-storage": "^2.0.0",
+    "mdbootstrap": "^4.19.1",
+    "mdbreact": "^4.27.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-card-slide": "^1.0.13",
+    "react-dom": "^16.13.1",
+    "react-download-link": "^2.3.0",
+    "react-elastic-carousel": "^0.7.5",
+    "react-grid-system": "^7.1.1",
+    "react-i18next": "^11.7.3",
+    "react-icons": "^3.11.0",
+    "react-interpolate-component": "^0.12.0",
+    "react-mail-form": "^2.1.0",
+    "react-map-gl": "^5.2.8",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "1.1.5",
+    "react-simple-maps": "^2.1.2",
+    "react-slick": "^0.27.11",
+    "react-slideshow-image": "^3.2.0",
+    "react-sticky": "^6.0.3",
+    "react-translate-component": "^0.15.1",
+    "semantic-ui-react": "^1.2.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.0"
   },
   "scripts": {
-    "dev": "nodemon server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
