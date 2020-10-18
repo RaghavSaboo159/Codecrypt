@@ -62,8 +62,8 @@ function Home(){
             height="800 rem"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            {/* <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -75,11 +75,11 @@ function Home(){
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src="b3.jpeg"
@@ -93,16 +93,16 @@ function Home(){
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
       <Jumbotron
         style={{
-          backgroundColor: "black",
+          backgroundColor: "#d6d6d4",
         }}
       >
           <p
           style={{
-            color: "white",
+            
             fontSize: "200%",
             marginTop: "-2%",
             marginBottom: "2%",
@@ -122,7 +122,7 @@ function Home(){
         <Card style={{height :"10rem" ,marginRight:"3rem"}}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 SQL INJECTION
@@ -139,7 +139,7 @@ function Home(){
         <Card style={{height :"10rem" ,marginRight:"3rem"}}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 SQL INJECTION
@@ -156,7 +156,7 @@ function Home(){
         <Card style={{height :"10rem" ,marginRight:"3rem"}}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 DDOS ATTACK
@@ -173,7 +173,7 @@ function Home(){
         <Card style={{height :"10rem" }}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 SQL INJECTION
@@ -204,7 +204,7 @@ function Home(){
         <Card style={{height :"10rem" ,marginRight:"3rem"}}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 SQL INJECTION
@@ -221,7 +221,7 @@ function Home(){
         <Card style={{height :"10rem" ,marginRight:"3rem"}}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 SQL INJECTION
@@ -238,7 +238,7 @@ function Home(){
         <Card style={{height :"10rem" ,marginRight:"3rem"}}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 DDOS ATTACK
@@ -255,7 +255,7 @@ function Home(){
         <Card style={{height :"10rem" }}>
          
           <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#ffccff"}}>
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
                 SQL INJECTION
@@ -277,7 +277,6 @@ function Home(){
 
         <Jumbotron
         style={{
-          backgroundColor: "white",
           marginTop: "-3%",
           marginBottom: "-2%",
         }}

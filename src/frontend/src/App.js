@@ -6,6 +6,8 @@ import NavigationBar from "./components/layout/NavigationBar";
 
 import Home from "./components/layout/Home"
 import Video from "./components/layout/Videos"
+import Experiment from "./components/layout/Experiments"
+
 class App extends Component {
   render() {
     return (
@@ -18,6 +20,8 @@ class App extends Component {
             <div>
               <Route exact path="/" component={Home} />
               <Route exact path="/Videos" component={Video} />
+              <Route exact path="/Experiments" component={Experiment} />
+
 
           
             </div>

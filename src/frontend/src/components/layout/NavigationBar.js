@@ -96,7 +96,7 @@ function NavigationBar() {
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/Factories">About</Nav.Link>
         <Nav.Link href="/Videos">Videos</Nav.Link>
-        <Nav.Link href="#pricing">Experiments</Nav.Link>
+        <Nav.Link href="/Experiments">Experiments</Nav.Link>
         <Nav.Link href="#pricing">Quizzes</Nav.Link>
   
       </Nav>

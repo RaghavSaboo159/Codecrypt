@@ -39,36 +39,60 @@ function Video(){
 <img src="v1.png" width="100%" height="700rem"></img>
 <CardDeck style={{marginRight:"2rem " ,marginLeft:"2rem" ,marginTop:"5%"}}>
     <Card style={{marginRight:"1rem"}}>
-<iframe   height="315" src="https://www.youtube.com/embed/Ni4vb7wgmpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe   height="315" src="https://www.youtube.com/embed/Ni4vb7wgmpg" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
 <Card.Body>
     INTRODUCTION : Beginning of Encryption.
 </Card.Body>
 </Card>
 <Card style={{marginRight:"2 rem"}}>
 
-<iframe  height="315" src="https://www.youtube.com/embed/0Z2da9iFYDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  height="315" src="https://www.youtube.com/embed/0Z2da9iFYDs" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
 </Card>
 <Card >
-<iframe  height="315" src="https://www.youtube.com/embed/nrMO0M5zpBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  height="315" src="https://www.youtube.com/embed/nrMO0M5zpBY" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
 </Card>
 </CardDeck>
 {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/7bj8p7kzkp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
 <CardDeck style={{marginRight:"2rem " ,marginLeft:"2rem" ,marginTop:"3%" , marginBottom:"3%"}}>
     <Card style={{marginRight:"1rem"}}>
-    <iframe height="315" src="https://www.youtube.com/embed/7gYRa54-Wus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe height="315" src="https://www.youtube.com/embed/7gYRa54-Wus" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
 <Card.Body>
     Basic Cryptography Protocols
 </Card.Body>
 </Card>
 <Card style={{marginRight:"2 rem"}}>
-<iframe height="315" src="https://www.youtube.com/embed/7bj8p7kzkp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/7bj8p7kzkp4" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
 <Card.Body>
   Crypto Soutions To Oblivious Transfers
 </Card.Body>
 </Card>
 
 <Card >
-<iframe height="315" src="https://www.youtube.com/embed/5c6gV4fDdu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/5c6gV4fDdu4" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
 <Card.Body>
   Oblivious Transfers
   </Card.Body></Card>
