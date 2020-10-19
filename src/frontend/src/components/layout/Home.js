@@ -108,7 +108,7 @@ function Home(){
             marginBottom: "2%",
           }}
         >
-          TOPICS COVERED
+          EXPERIMENTS COVERED
         </p>
         <CardDeck
         style={{
@@ -142,12 +142,12 @@ function Home(){
             <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
-                SQL INJECTION
+                DNS spoofing
               </p>
               <hr></hr>
               <p style={{  color: "black" }}>
                 {" "}
-                SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
+              DNS spoofing, also referred to as DNS cache poisoning, is a form of computer security hacking in which corrupt Domain Name System data is introduced into the DNS resolver's cache, causing the name server to return an incorrect result record, e.g. an IP address.
               </p>
              
             </Card.Body>
@@ -159,12 +159,12 @@ function Home(){
             <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
-                DDOS ATTACK
+                CSRF
               </p>
               <hr></hr>
               <p style={{  color: "black" }}>
                 {" "}
-                A DDoS attack is a malicious attempt to disrupt the normal traffic of a targeted server by overwhelming the target with a flood of Internet traffic.
+                Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from interfering with each other.
               </p>
              
             </Card.Body>
@@ -354,14 +354,14 @@ function Home(){
                 <div style={{ height: "43vh", width: "39vw" }}>
                   <GoogleMapReact
                     // bootstrapURLKeys={{
-                    //   key: "AIzaSyCqLwhAw3T_ndonYW1WovillsjPttODRpY",
+                      // key: "AIzaSyCqLwhAw3T_ndonYW1WovillsjPttODRpY",
                     // }}
-                    defaultCenter={{ lat: 26.840886, lng: 80.802213 }}
-                    defaultZoom={7}
+                    defaultCenter={{ lat: 17.4448, lng: 78.3498 }}
+                    defaultZoom={17}
                   >
                     <AnyReactComponent
-                      lat={26.840886}
-                      lng={80.802213}
+                      lat={17.4448}
+                      lng={78.3498}
                       text="My Marker"
                     />
                   </GoogleMapReact>
