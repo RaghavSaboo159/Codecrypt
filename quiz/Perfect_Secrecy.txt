@@ -1,0 +1,99 @@
+﻿Perfect Secrecy
+
+
+1. Cryptosystems are used for
+1. Privacy
+2. Authentication
+3. Privacy & Authentication
+4. None of the mentioned
+Answer: c
+Explanation: Cryptosystems which includes the process of encryption and decryption is used for both privacy and authentication.
+
+
+
+
+2. The key also contains a
+1. Plaintext
+2. Ciphertext
+3. Plaintext & Ciphertext
+4. None of the mentioned
+Answer: c
+Explanation: The key is supplied along with a plaintext message for encryption and cipher text message for decryption.
+
+
+
+
+3. The system which has insufficient information available to crypt-analyst is
+1. One-time pad
+2. Unconditionally secure
+3. One-time pad & Unconditionally secure
+4. None of the mentioned
+Answer: c
+Explanation: Unconditionally secure system is the one which has insufficient information available to crypt-analyst. One such system is one-time pad.
+
+
+
+
+4. In Caesar cipher, each plain text is replaced by
+1. Alphabet shift
+2. Numerals
+3. Symbols
+4. None of the mentioned
+Answer: a
+Explanation: In Caesar cipher each plain text is replaced with a new letter obtained by an alphabetic shift.
+
+
+
+
+5. In Vigenere method ______ is provided.
+1. Priming key
+2. Feedback
+3. Priming key & Feedback
+4. None of the mentioned
+Answer: c
+Explanation: Vigenere method which is also called as vigenere auto method priming key and feedback are used.
+
+
+
+
+6. A cipher system is said to have perfect secrecy if
+1. Posteriori probability is equal to priori probability
+2. Posteriori probability is greater than priori probability
+3. Posteriori probability is less than priori probability
+4. None of the mentioned
+Answer: a
+Explanation: A cipher system is said to have perfect secrecy if for every message and cipher text the posteriori probability is equal to priori probability.
+
+
+
+
+7. The conditions for perfect secrecy are
+1. Only one key transforming message should exist
+2. All keys should be equally likely
+3. One key transforming message to each cipher text & all keys should be equally likely
+4. None of the mentioned
+Answer: c
+Explanation: The conditions for perfect secrecy are, there is only one key transforming message to each cipher text and all keys should be equally likely.
+
+
+
+
+8. The _____ the uncertainty, the ______ is the information content.
+1. Lesser, greater
+2. Greater, lesser
+3. Lesser, lesser
+4. Greater, greater
+Answer: d
+Explanation: The more uncertainty there is in predicting the occurrence of a message, the greater the information content.
+
+
+
+
+9. When a system is called as unbreakable?
+1. When unique solution is available
+2. When unique solution is not available
+3. All of the mentioned
+4. None of the mentioned
+View Answer
+Answer: b
+Explanation: A system is said to be unbreakable when unique solution is not available because of the number of equations being smaller than the number of unknown key bits.
