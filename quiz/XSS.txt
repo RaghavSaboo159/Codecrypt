@@ -1,0 +1,76 @@
+﻿XSS
+
+
+1. XSS is:
+1. Injection of commands
+2. Injection parameters
+3. Injection of scripts
+4. All of the above
+Answer: c
+
+
+
+
+2. Which of the following languages are associated with cross-site scripting?
+1. C++
+2. SQL
+3. XSLT
+4. JavaScript
+Answer: d
+
+
+
+
+3. Which attack can execute scripts in the user’s browser and is capable of hijacking user sessions, defacing websites or redirecting the user to malicious sites?
+1. SQL Injection
+2. Malware Uploading
+3. Man in the middle
+4. Cross site scripting
+Answer: d
+
+
+
+
+4. By exploiting XSS, an attackers can perform a variety of malicious activities, such as:
+1. Hijack an account
+2. Control the browser remotely
+3. Access browser history and clipboard contents
+4. All of the above
+Answer: d
+
+
+
+
+5. XSS can be prevented by:
+1. Input Validation
+2. Input Sanitization
+3. Escaping
+4. All of the above
+Answer: d
+
+
+
+
+6. <script>document.write("Site is at: " + document.location.href + "."); </script>
+This may lead to:
+1. All types of XSS
+2. Stored XSS
+3. Reflected XSS
+4. DOM based XSS
+Answer: d
+
+
+
+
+7. XSS can be exploited by tampering parameters in GET request
+1. True
+2. False
+Answer: a
+
+
+
+
+8. XSS can be exploited by including javascript in POST request
+1. True
+2. False
+Answer: a
