@@ -1,0 +1,153 @@
+﻿DoS and DDoS
+
+
+1. A ______________ tries to formulate a web resource occupied or busy its users by flooding the URL of the victim with unlimited requests than the server can handle.
+a) Phishing attack
+b) DoS attack
+c) Website attack
+d) MiTM attack
+Answer: b
+Explanation: A DoS attack tries to formulate a web resource occupied or busy to its users by flooding the URL of the victim with unlimited requests than the server can handle.
+
+
+
+
+2. During a DoS attack, the regular traffic on the target _____________ will be either dawdling down or entirely interrupted.
+a) network
+b) system
+c) website
+d) router
+Answer: c
+Explanation: Using of DoS attack put together web resource by flooding its users with unlimited requests. During a DoS attack, the regular traffic on the target website will be either dawdling down or entirely interrupted.
+
+
+
+
+3. The intent of a ______________ is to overkill the targeted server’s bandwidth and other resources of the target website.
+a) Phishing attack
+b) DoS attack
+c) Website attack
+d) MiTM attack
+Answer: b
+Explanation: Web resource gets occupied or busy as it floods its users performing DoS attack. The intent of this attack is to overkill the targeted server’s bandwidth and other resources of the target website.
+
+
+
+
+4. DoS is abbreviated as _____________________
+a) Denial of Service
+b) Distribution of Server
+c) Distribution of Service
+d) Denial of Server
+Answer: a
+Explanation: A Denial of Service attack targets its victim by flooding the URL of the victim with unlimited requests. The intent of this attack is to overkill the targeted server’s bandwidth and other resources of the target website.
+
+
+
+
+5. A DoS attack coming from a large number of IP addresses, making it hard to manually filter or crash the traffic from such sources is known as a _____________
+a) GoS attack
+b) PDoS attack
+c) DoS attack
+d) DDoS attack
+Answer: d
+Explanation: A DoS attack coming from a large number of IP addresses, making it hard to manually filter or crash the traffic from such sources is known as a Distributed Denial of Service (DDoS) attack.
+
+
+
+
+6. DDoS stands for _________________
+a) Direct Distribution of Server
+b) Distributed Denial of Service
+c) Direct Distribution of Service
+d) Distributed Denial of Server
+Answer: b
+Explanation: When a DoS attack comes from a large number of IP addresses, this makes it hard to manually filter or crash the traffic from such sources and the attack is known as a Distributed Denial of Service (DDoS) attack.
+
+
+
+
+7. Instead of implementing a single computer & its internet bandwidth, a ____________ utilizes various systems & their connections for flooding the targeted website.
+a) GoS attack
+b) PoS attack
+c) DDoS attack
+d) DoS attack
+Answer: c
+Explanation: DDoS is another leading attack type. Instead of implementing a single computer & its internet bandwidth, a DDoS utilizes various systems & their connections for flooding the targeted website.
+
+
+
+
+8. There are ______ types of DoS attack.
+a) 2
+b) 3
+c) 4
+d) 5
+Answer: a
+Explanation: With the help of DoS attack attackers try to busy its users by flooding the URL of the victim with limitless requests. There are two types of DoS attack. These are Application Layer Attacks and Network Layer DoS attacks.
+
+
+
+
+9. Application layer DoS attack is also known as _______________
+a) Layer4 DoS attack
+b) Layer5 DoS attack
+c) Layer6 DoS attack
+d) Layer7 DoS attack
+Answer: d
+Explanation: A DoS attack is a very dangerous threat for users who have their services running via the internet. The Application Layer DoS is also known as Layer-7 DoS attack.
+
+
+
+
+10. ___________ is a type of DoS threats to overload a server as it sends a large number of requests requiring resources for handling & processing.
+a) Network Layer DoS
+b) Physical Layer DoS
+c) Transport Layer DoS
+d) Application Layer DoS
+Answer: d
+Explanation: DoS attacks are of two types. These are Application Layer Attacks and Network Layer DoS attacks. Application Layer DoS is a type of DoS threats to overload a server as it sends a large number of requests requiring resources for handling & processing.
+
+
+
+
+11. Which of the following is not a type of application layer DoS?
+a) HTTP flooding
+b) Slowloris
+c) TCP flooding
+d) DNS query flooding
+Answer: c
+Explanation: In application Layer DoS, its threats to overload a server as it sends a large quantity of requests requiring resources for handling & processing. This category includes HTTP flooding, slow-flooding attack and DNS query flooding.
+
+
+
+
+12. Network layer attack is also known as ________________
+a) Layer3-4 DoS attack
+b) Layer5 DoS attack
+c) Layer6-7 DoS attack
+d) Layer2 DoS attack
+Answer: a
+Explanation: Denial of Service attack becomes dangerous because it floods the target service over the internet. There are two types of DoS attack. The Network Layer DoS is also known as the Layer 3-4 DoS attack.
+
+
+
+
+13. Which of the following do not comes under network layer DoS flooding?
+a) UDP flooding
+b) HTTP Flooding
+c) SYN flooding
+d) NTP Amplification
+Answer: b
+Explanation: Network layer DoS attack is set up to congest the “pipelines” that are connecting user’s network. This includes attacks such as NTP amplification, SYN flooding, UDP flooding and DNS amplification.
+
+
+
+
+14. Which of the following do not come under network layer DoS flooding?
+a) DNS amplification
+b) UDP flooding
+c) DNS query flooding
+d) NTP Amplification
+Answer: c
+Explanation: Network layer DoS attack includes attacks such as NTP amplification, SYN flooding, UDP flooding and DNS amplification. DNS query flooding does not come under the Network layer DoS attack.
