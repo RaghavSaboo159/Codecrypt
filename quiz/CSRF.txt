@@ -1,0 +1,52 @@
+﻿CSRF
+
+
+1. As a web application user, what puts you at most risk to fall victim to a cross-site request forgery (CSRF) attack?
+1. Using an old browser
+2. Using a web app that is not fully protected by SSL/TLS
+3. Using the "keep me logged in" option offered by web apps
+4. Using weak passwords
+Answer: c
+Explanation: With the "keep me logged in" option, a persistent cookie is set causing you to be in a permanently-authenticated state. A key factor in a successful CSRF attack is that the victim is authenticated to the target site.
+
+
+
+
+2. If you want your web application to defend itself against cross-site scripting attacks that steal session IDs, which cookie attribute is best able to help you?
+1. Secure
+2. Path
+3. Expires
+4. HttpOnly
+Answer: d
+Explanation: The HttpOnly attribute of a cookie instructs web browsers that JavaScript is not allowed to access the cookie.  This means that malicious JavaScript injected in an XSS attack can't access the cookie.  (HttpOnly is widely supported by web browsers)
+
+
+
+
+3. Your web application allows users to download their account statements in PDF format. What is the most secure way to implement this functionality?
+1. Store all PDFs in an obscure directory on the web server and provide a link to the correct PDF depending on the user.
+2. Generate the PDF on the fly, write it to a temporary directory on the server, and redirect the browser to that location (via 302 response).
+3. Generate the PDF on the fly, store it in memory on the server, and send the bytes of the PDF to the browser directly (via 200 response).
+4. Store the PDFs in a database and retrieve the correct PDF by looking at the identifier/primary key provided in the HTTP request.
+Answer: c
+Explanation: Because the PDF is never written to disk in option c, there is no chance an attacker can forcefully browse to it.  Option d is not secure because a user could tamper with the identifier to access another user's document.
+
+
+
+
+4. What is one way developers can defend against forced browsing attacks?
+1. Incorporate GUIDs into file names
+2. Log all user activity
+3. Validate input data
+4. Use a sensible directory naming scheme
+Answer: a
+Explanation: Using GUIDs (globally unique identifiers) makes it near impossible for a user to guess valid file names.  A problem I've seen frequently when doing pen tests is that the application names static files such as PDF or Excel documents in a logical, consistent manner.  For example, a file name might include the user's name or account number.  This could make it easy for one user to guess the name of other files and access information intended for other users.
+
+
+
+
+5. All web applications are vulnerable to CSRF attacks unless there's a specific protection mechanism in place.
+1. True
+2. False
+Answer: b
+Explanation: Read-only web apps (no actions can be taken by a user) are not subject to CSRF attacks.
