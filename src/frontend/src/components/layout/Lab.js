@@ -16,39 +16,92 @@ import {Form} from "react-bootstrap";
 // import {FormControl} from "react-bootstrap";
 import "../css/Lab.css";
 
+import {Component} from 'react';
+import axios from 'axios';
 
-function Lab(){
+
+export default class Lab extends Component {
     
-return(
-    <React.Fragment>
-        
-        <div class="login-form">
-			<h1>Login Form</h1>
-            <Form>
-  <Form.Group controlId="formBasicEmail">
-    <Form.Label>Username</Form.Label>
-    <Form.Control type="username" placeholder="Enter username" />
-    {/* <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
-    </Form.Text> */}
-  </Form.Group>
+  constructor(props) {
+      super(props);
 
-  <Form.Group controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control type="password" placeholder="Password" />
-  </Form.Group>
-  <Form.Group controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
-</Form>
-            
-            
-		</div>
-    </React.Fragment>
-);
+      this.state = {
+          username: '',
+          email: ''
+      }
+
+      this.onChangeUsername = this.onChangeUsername.bind(this);
+      this.onChangeEmail = this.onChangeEmail.bind(this);
+      this.onSubmit = this.onSubmit.bind(this);
+  }
   
+  onChangeUsername(event) {
+      this.setState({ username: event.target.value });
+  }
+
+  onChangeEmail(event) {
+      this.setState({ email: event.target.value });
+  }
+
+  onSubmit(e) {
+      e.preventDefault();
+
+      const newUser = {
+          username: this.state.username,
+          password: this.state.email
+      }
+      console.log(newUser);
+      axios.post('http://localhost:5000/auth', newUser,{headers: {
+        "Access-Control-Allow-Origin": "*",
+// 'Access-Control-Allow-Methods': 'POST'
+      }
+    }
+)
+           .then(res => {console.log(res.data);
+            if(res.data=="correct")
+            {
+              this.props.history.push("./first");
+
+            }
+            else{
+              alert("incorrect");
+            }
+            
+          });
+
+      this.setState({
+          username: '',
+          email: ''
+      });
+  }
+
+  render() {
+      return (
+          <div>
+              <form onSubmit={this.onSubmit}>
+                  <div className="form-group">
+                      <label>Username: </label>
+                      <input type="text" 
+                            placeholder="Username"
+                             className="form-control" 
+                             value={this.state.username}
+                             onChange={this.onChangeUsername}
+                             />
+                  </div>
+                  <div className="form-group">
+                      <label>Email: </label>
+                      <input type="text" 
+                             placeholder="Password"
+                             className="form-control" 
+                             value={this.state.email}
+                             onChange={this.onChangeEmail}
+                             />  
+                  </div>
+                  <div className="form-group">
+                      <input type="submit" value="Create User" className="btn btn-primary"/>
+                  </div>
+              </form>
+          </div>
+      )
+  }
 }
-export default Lab;
