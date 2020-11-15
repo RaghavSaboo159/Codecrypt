@@ -21,7 +21,7 @@ Explanation: AES does not use a Feistel structure. Instead, each full round cons
 -XOR with a key.
 
 
-6. How many rounds does the AES-256 perform?
+3. How many rounds does the AES-256 perform?
 a) 10
 b) 12
 c) 14
@@ -30,205 +30,22 @@ Answer: c
 Explanation: AES 256 performs 14 rounds.
 
 
-9. In AES the 4×4 bytes matrix key is transformed into a keys of size __________
+4. In AES the 4×4 bytes matrix key is transformed into a keys of size __________
 a) 32 words
 b) 64 words
 c) 54 words
 d) 44 words
 Answer: d
 Explanation: In AES the 4×4 bytes matrix key is transformed into a keys of size 44 bytes.
-        
-12. There is an addition of round key before the start of the AES round algorithms.
+
+5. There is an addition of round key before the start of the AES round algorithms.
 a) True
 b) False
 Answer: a
 Explanation: In AES the final round contains only three transformations, and there is an initial single transformation (Add Round Key) before the first round which can be considered Round 0. Each transformation takes 4×4 matrices as input and produces a 4×4 matrix as output.
 
 
-1. Conversion of the Plaintext MANIPALINSTITUTE to a state matrix leads to
-a)
-M
-	A
-	N
-	I
-	P
-	A
-	L
-	I
-	N
-	S
-	T
-	I
-	T
-	U
-	T
-	E
-	        
-b)
-M
-	P
-	N
-	T
-	A
-	A
-	S
-	U
-	N
-	L
-	T
-	T
-	I
-	I
-	I
-	E
-	c)
-M
-	A
-	I
-	L
-	N
-	P
-	I
-	T
-	A
-	N
-	I
-	U
-	S
-	T
-	T
-	E
-	d)
-E
-	U
-	T
-	L
-	T
-	I
-	I
-	L
-	T
-	N
-	P
-	A
-	S
-	A
-	N
-	M
-	Answer: b
-Explanation:
-M
-	A
-	N
-	I
-	P
-	A
-	L
-	I
-	N
-	S
-	T
-	I
-	T
-	U
-	T
-	E
-	The State matrix is Arranged –
-M
-	P
-	N
-	T
-	A
-	A
-	S
-	U
-	N
-	L
-	T
-	T
-	I
-	I
-	I
-	E
-	
-
-
-
-2. On encrypting MANIPALINSTITUTE with key ADVANCEDENCRYPTI we get the state matrix –
-a)
-FC
-	1D
-	1B
-	0D
-	15
-	02
-	1D
-	05
-	10
-	0F
-	17
-	00
-	20
-	0D
-	1B
-	FC
-	        
-b)
-FC
-	1D
-	1B
-	0D
-	15
-	02
-	1D
-	05
-	10
-	0F
-	17
-	00
-	20
-	0D
-	1B
-	0C
-	c)
-OC
-	FE
-	0B
-	0D
-	D5
-	02
-	1D
-	05
-	18
-	09
-	17
-	00
-	08
-	0D
-	1B
-	FC
-	d)
-OC
-	1E
-	0B
-	0D
-	05
-	02
-	1D
-	05
-	18
-	09
-	17
-	00
-	08
-	0D
-	1B
-	0C
-	Answer: d
-Explanation: First convert the state matrix to their equivalent ASCII values and then perform XOR operation.
-
-
-3. The multiplicative inverse of 0x95 in AES where m(x)=x8+x4+x3+x+1 is
+6. The multiplicative inverse of 0x95 in AES where m(x)=x8+x4+x3+x+1 is
 a) 0x8F
 b) 0xF8
 c) 0x8A
@@ -237,100 +54,7 @@ Answer: c
 Explanation: The multiplicative inverse is 0x8A.
 
 
-12. What is the Shifted Row transformation for the matrix bellow?
-FE
-	72
-	2B
-	D7
-	6B
-	77
-	A4
-	6B
-	AD
-	01
-	F0
-	63
-	30
-	D7
-	AF
-	FE
-	a)
-FE
-	72
-	2B
-	D7
-	6B
-	77
-	A4
-	6B
-	AD
-	01
-	F0
-	63
-	30
-	D7
-	AF
-	FE
-	b)
-72
-	2B
-	D7
-	FE
-	A4
-	6B
-	6B
-	77
-	63
-	AD
-	01
-	F0
-	30
-	D7
-	AF
-	FE
-	c)
-FE
-	72
-	2B
-	D7
-	77
-	A4
-	6B
-	6B
-	F0
-	63
-	AD
-	01
-	FE
-	30
-	D7
-	AF
-	d)
-D7
-	FE
-	72
-	2B
-	A4
-	6B
-	6B
-	77
-	01
-	AD
-	63
-	F0
-	30
-	D7
-	AF
-	FE
-	Answer: c
-Explanation: The Shift Rows transformation consists of:
--Not shifting the first row of the state array at all.
--Circularly shifting the second row by one byte to the left.
--Circularly shifting the third row by two bytes to the left, and
--Circularly shifting the last row by three bytes to the left.
-
-
-1. How many computation rounds does the simplified AES consists of?
+7. How many computation rounds does the simplified AES consists of?
 a) 5
 b) 2
 c) 8
@@ -339,7 +63,7 @@ Answer: b
 Explanation: The simplified AES has only 2 rounds of computation.
 
 
-2. For the case of Mixed Columns and Inverse Mixed Columns, is it true that b(x) = a-1(x)mod(x4 + 1)
+8. For the case of Mixed Columns and Inverse Mixed Columns, is it true that b(x) = a-1(x)mod(x4 + 1)
 where a(x) = {03}x3 + {01}x2 + {01}x + {02} and b(x) = {0B}x3 + {0D}x2 + {09}x + {0E}
 a) True
 b) False. The expression for a(x) is wrong.
@@ -349,7 +73,7 @@ Answer: a
 Explanation: The statement is true and can be checked as it is similar to the matrix forms of mixed columns and inverse mixed columns.
 
 
-3. For an input key of size 128 bits constituting all zeros, what is w(7) ?
+9. For an input key of size 128 bits constituting all zeros, what is w(7) ?
 a) {62 63 63 63}
 b) {62 62 62 62}
 c) {00 00 00 00}
@@ -360,7 +84,7 @@ w(0) = {00 00 00 00}; w(1) = {00 00 00 00}; w(2) = {00 00 00 00}; w(3) = {00 00 
 w(4) = {62 63 63 63}; w(5) = {62 63 63 63}; w(6) = {62 63 63 63}; w(7) = {62 63 63 63}.
 
 
-4. On comparing AES with DES, which of the following functions from DES does not have an equivalent AES function?
+10. On comparing AES with DES, which of the following functions from DES does not have an equivalent AES function?
 a) f function
 b) permutation p
 c) swapping of halves
@@ -369,7 +93,7 @@ Answer: c
 Explanation: There is no equivalent to swapping of halves in the AES algorithm.
 
 
-8. For the cipher text 0000 0111 0011 1000 and Key 0110 1111 0110 1011, apply the Simplified AES to obtain the plaintext. The plain text is
+11. For the cipher text 0000 0111 0011 1000 and Key 0110 1111 0110 1011, apply the Simplified AES to obtain the plaintext. The plain text is
 a) 0110 1001 0111 0001
 b) 0110 1111 0110 1011
 c) 0010 1001 0110 1011
@@ -378,7 +102,7 @@ Answer: b
 Explanation: On applying the simplified AES we would obtain 0110 1111 0110 1011 as the plain text.
 
 
-9. What is the block size in the Simplified AES algorithm?
+12. What is the block size in the Simplified AES algorithm?
 a) 8 bits
 b) 40 bits
 c) 16 bits
@@ -387,7 +111,7 @@ Answer: b
 Explanation: The block size for the AES algorithm is 16 bits.
 
 
-10. What is the key size in the S-AES algorithm?
+13. What is the key size in the S-AES algorithm?
 a) 16 bits
 b) 32 bits
 c) 24 bits
@@ -396,7 +120,7 @@ Answer: a
 Explanation: The key size in the S-AES algorithm is 16 bits.
 
 
-8. Which of the following are true
+14. Which of the following are true
 i) In the AES key expansion algorithm, the function g() operates on w i+3
 ii) Perform a one-byte right circular rotation on the argument 4-byte word
 iii) The round constant follows the formula RC[j] = RC[j − 1]

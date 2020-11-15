@@ -1,0 +1,104 @@
+﻿SQL Injection
+
+
+1. SQL injection is an attack in which _________ code is inserted into strings that are later passed to an instance of SQL Server.
+a) malicious
+b) redundant
+c) clean
+d) non malicious
+Answer: a
+Explanation: SQL injection is a code injection technique, used to attack data-driven applications.
+
+
+
+
+2. Point out the correct statement.
+a) Parameterized data cannot be manipulated by a skilled and determined attacker
+b) Procedure that constructs SQL statements should be reviewed for injection vulnerabilities
+c) The primary form of SQL injection consists of indirect insertion of code
+d) None of the mentioned
+Answer: b
+Explanation: Any procedure that constructs SQL statements should be reviewed for injection vulnerabilities because SQL Server will execute all syntactically valid queries that it receives.
+
+
+
+
+3. Which of the following script is an example of SQL injection attack?
+a)
+var Shipcity;
+ShipCity = Request.form ("ShipCity");
+var SQL = "select * from OrdersTable where ShipCity = '" + ShipCity + "'";
+b)
+var Shipcity;
+ShipCity = Request.form ("ShipCity");
+c)
+var Shipcity;
+var SQL = "select * from OrdersTable where ShipCity = '" + ShipCity + "'";
+d) All of the mentioned
+Answer: a
+Explanation: The script builds an SQL query by concatenating hard-coded strings together with a string entered by the user.
+
+
+
+
+4. Any user-controlled parameter that gets processed by the application includes vulnerabilities like ___________
+a) Host-related information
+b) Browser-related information
+c) Application parameters included as part of the body of a POST request
+d) All of the mentioned
+Answer: d
+Explanation: SQL-injection exploit requires two things: an entry point and an exploit to enter.
+
+
+
+
+5. Point out the wrong statement.
+a) SQL injection vulnerabilities occur whenever input is used in the construction of an SQL query without being adequately constrained or sanitized
+b) SQL injection allows an attacker to access the SQL servers and execute SQL code under the privileges of the user used to connect to the database
+c) The use of PL-SQL opens the door to these vulnerabilities
+d) None of the mentioned
+Answer: c
+Explanation: Dynamic SQL (the construction of SQL queries by concatenation of strings) opens the door to many vulnerabilities.
+
+
+
+
+6. Which of the stored procedure is used to test the SQL injection attack?
+a) xp_write
+b) xp_regwrite
+c) xp_reg
+d) all of the mentioned
+Answer: b
+Explanation: xp_regwrite writes an arbitrary value into the Registry (undocumented extended procedure).
+
+
+
+
+7. If xp_cmdshell has been disabled with sp_dropextendedproc, we can simply inject the following code?
+a) sp_addextendedproc ‘xp_cmdshell’,’xp_log70.dll’
+b) sp_addproc ‘xp_cmdshell’,’xp_log70.dll’
+c) sp_addextendedproc ‘xp_cmdshell’,’log70.dll’
+d) none of the mentioned
+Answer: a
+Explanation: Security best practices for SQL Server recommends disabling xp_cmdshell in SQL Server 2000 (in SQL Server 2005 it is disabled by default). However, if we have sysadmin rights (natively or by bruteforcing the sysadmin password, see below), we can often bypass this limitation.
+
+
+
+
+8. _______________ is a time based SQL injection attack.
+a) Quick detection
+b) Initial Exploitation
+c) Blind SQL Injection
+d) Inline Comments
+Answer: c
+Explanation: Blind SQL Injection is just like sleep, wait for specified time.
+
+
+
+
+9. Which one can be used to bypass a basic login screen in case of MySQL?
+a) 'OR 1=1//
+b) 'OR 1=1
+c) 'OR '1'=1
+d) 'OR 1=1-- -
+Answer: d
