@@ -44,7 +44,7 @@ function Video(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
-<Card.Body>
+<Card.Body  style={{color:"black"}}>
     INTRODUCTION : Beginning of Encryption.
 </Card.Body>
 </Card>
@@ -72,7 +72,7 @@ function Video(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
-<Card.Body>
+<Card.Body  style={{color:"black"}}>
     Basic Cryptography Protocols
 </Card.Body>
 </Card>
@@ -82,7 +82,7 @@ function Video(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
-<Card.Body>
+<Card.Body  style={{color:"black"}}>
   Crypto Soutions To Oblivious Transfers
 </Card.Body>
 </Card>
@@ -93,7 +93,7 @@ function Video(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"frameborder="0"></iframe>
-<Card.Body>
+<Card.Body  style={{color:"black"}}>
   Oblivious Transfers
   </Card.Body></Card>
 </CardDeck>

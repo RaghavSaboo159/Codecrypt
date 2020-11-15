@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card } from "react-bootstrap";
+// import { Carousel, Jumbotron, Figure } from "react-bootstrap";
+
 import { Button } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,11 +28,11 @@ import {
 import emailjs from "emailjs-com";
 import GoogleMapReact from "google-map-react";
 
-function Experiment(){
+function Quiz(){
  
     return (
-      <React.Fragment >
-    <p style={{fontSize:"300%" ,marginTop:"2%",color:"black"}}>
+      <React.Fragment>
+    <p style={{fontSize:"300%" ,marginTop:"2%"}}>
         EXPERIMENTS
     </p>
 
@@ -46,7 +48,7 @@ function Experiment(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"frameborder="0" ></iframe> */}
-<Card.Body style={{color:"black"}}>
+<Card.Body>
     DDOS Attack
 </Card.Body>
 </Card>
@@ -56,7 +58,7 @@ function Experiment(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"></iframe>
-<Card.Body  style={{color:"black"}}>DNS Spoofing</Card.Body>
+<Card.Body>DNS Spoofing</Card.Body>
 </Card>
 <Card >
 <iframe  height="315" src="https://www.youtube.com/embed/8gYFbBSkh24" frameborder="0" allowfullscreen="allowfullscreen"
@@ -64,7 +66,7 @@ function Experiment(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"></iframe>
-        <Card.Body  style={{color:"black"}}>Cross Site Request Forgery</Card.Body>
+        <Card.Body>Cross Site Request Forgery</Card.Body>
 </Card>
 
 </CardDeck>
@@ -76,7 +78,7 @@ function Experiment(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"></iframe>
-<Card.Body  style={{color:"black"}}>
+<Card.Body>
     Cross Site Scripting
 </Card.Body>
 </Card>
@@ -86,17 +88,17 @@ function Experiment(){
         msallowfullscreen="msallowfullscreen" 
         oallowfullscreen="oallowfullscreen" 
         webkitallowfullscreen="webkitallowfullscreen"></iframe>
-<Card.Body  style={{color:"black"}}>
+<Card.Body>
   SQL Injection
 </Card.Body>
 </Card>
 
 <Card >
-<Card.Body  style={{color:"black"}}>
+<Card.Body>
   </Card.Body></Card>
 </CardDeck>
       </React.Fragment>
     );
   
 }
-export default Experiment;
+export default Quiz;
