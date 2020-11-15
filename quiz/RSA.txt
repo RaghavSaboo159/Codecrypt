@@ -1,0 +1,189 @@
+﻿RSA
+
+
+1. What type of key is not shared and computers cannot decrypt a message without it?
+1. Free key
+2. Private key
+3. Public key
+4. Personal key
+Answer: b
+
+
+
+
+2. If the same key is used to encrypt and decrypt a message, this is known as?
+1. Symmetric encryption
+2. Encryption doesn't exist!
+3. Asymmetric encryption
+4. Same-key encryption
+Answer: a
+
+
+
+
+3. Find the ciphertext for the message {100110101011011} using superincreasing sequence { 1, 3, 5, 11, 35 } and private keys a = 5 and m=37.
+1. C = ( 33, 47, 65 )
+2. C = ( 65, 33, 47 )
+3. C = ( 47, 33, 65 )
+4. C = ( 47, 65, 33 )
+Answer: c
+Explanation: {vi} = { 1, 3, 5, 11, 35 }
+a = 5 and m = 37
+Public key generation:
+{wi} = avi mod m
+wi = {5, 15, 25, 18, 27}
+Break the message into k-bit tuple i.e. 5-bit tuple
+10011 01010 11011
+Encoding of M as follows:
+M Ci
+10011 47
+01010 33
+11011 65
+Ciphertext sent will be: C = (47, 33, and 65).
+
+
+
+
+4. Suppose that plaintext message units are single letters in the usual 26-letter alphabet with A-Z corresponding to 0-25. You receive the sequence of ciphertext message units 14, 25, 89. The public key is the sequence {57, 14, 3, 24, 8} and the secret key is b = 23, m = 61.
+Decipher the message. The Plain text is
+1. TIN
+2. INT
+3. KIN
+4. INK
+Answer: b
+Explanation: Solve using Knapsack Cryptosystem.
+Wi = {57, 14, 3, 24, 8}
+b = 23 and m = 61
+a = b-1 mod m
+61 = 2 x 23 + 15
+23 = 1x 15 + 8 Therefore 1= 8 x 23 – 3 x 61
+15 = 1x 8 + 7 b-1 = 23-1= 8
+8 = 1x 7 + 1 a = 8
+Vi = a^(-1) wi mod m
+= bwi mod m
+Vi = {30, 17, 8, 3, 1}
+Cipher text V = bC mod m Plaintext
+14 23 x 14 mod 61 = 17 01000 = 8 = I
+25 23 x 25 mod 61 = 26 01101 = 13 = N
+89 23 x 89 mod 61 = 34 10011 = 19 = T.
+
+
+
+
+5. RSA is also a stream cipher like Merkel-Hellman.
+1. True
+2. False
+Answer: a
+Explanation: RSA is a block cipher system.
+
+
+
+
+6. In the RSA algorithm, we select 2 random large values ‘p’ and ‘q’. Which of the following is the property of ‘p’ and ‘q’?
+1. p and q should be divisible by Ф(n)
+2. p and q should be co-prime
+3. p and q should be prime
+4. p/q should give no remainder
+Answer: c
+Explanation: ‘p’ and ‘q’ should have large random values which are both prime numbers.
+
+
+
+
+7. In RSA, Ф(n) = _______ in terms of p and q.
+1. (p)/(q)
+2. (p)(q)
+3. (p-1)(q-1)
+4. (p+1)(q+1)
+Answer: c
+Explanation: Ф(n) = (p-1)(q-1).
+
+
+
+
+8. For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text.
+1. C=80
+2. C=92
+3. C=56
+4. C=23
+Answer: a
+Explanation: n = pq = 11 × 19 = 209.
+
+
+
+
+9. For p = 11 and q = 19 and choose d=17. Apply RSA algorithm where Cipher message=80 and thus find the plain text.
+1. 54
+2. 43
+3. 5
+4. 24
+Answer: c
+Explanation: n = pq = 11 × 19 = 209.
+C=Me mod n ; C=517 mod 209 ; C = 80 mod 209.
+
+
+
+
+Perform encryption on the following PT using RSA and find the CT.
+10. p = 3; q = 11; M = 5
+1. 28
+2. 26
+3. 18
+4. 12
+Answer: b
+Explanation: n = 33; f(n) = 20; d = 3; C = 26.
+
+
+
+
+11. p = 5; q = 11; M = 9
+1. 43
+2. 14
+3. 26
+4. 37
+Answer: b
+Explanation: n = 55; f(n) = 40; d = 27; C = 14.
+
+
+
+
+12. p = 7; q = 11; M = 8
+1. 19
+2. 57
+3. 76
+4. 59
+Answer: b
+Explanation: n = 77; f(n) = 60; d = 53; C = 57.
+
+
+
+
+13. p = 11; q = 13; M = 7
+1. 84
+2. 124
+3. 106
+4. 76
+Answer: c
+Explanation: n = 143; f(n) = 120; d = 11; C = 106.
+
+
+
+
+14. p = 17; q = 31; M = 2
+1. 254
+2. 423
+3. 128
+4. 523
+Answer: c
+Explanation: n = 527; f(n) = 480; d = 343; C = 128.
+
+
+
+
+15. n = 35; e = 5; C = 10. What is the plaintext (use RSA) ?
+1. 3
+2. 7
+3. 8
+4. 5
+Answer: d
+Explanation: Use RSA system to decrypt and get PT = 5.
