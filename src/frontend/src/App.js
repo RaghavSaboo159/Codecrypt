@@ -12,6 +12,7 @@ import Quiz1 from"./components/layout/Quiz1"
 import Quiz2 from"./components/layout/Quiz2"
 import Lab from"./components/layout/Lab"
 import first from "./components/layout/first"
+import Labpage from "./components/layout/Labpage"
 
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
               <Route exact path="/Quiz" component = {Quiz}/>
               <Route exact path="/Quiz1" component = {Quiz1}/>
               <Route exact path="/Quiz2" component = {Quiz2}/>
+              <Route exact path="/Labpage" component = {Labpage}/>
               <Route exact path="/Lab" component = {Lab}/>
               <Route exact path="/first" component = {first}/>
 

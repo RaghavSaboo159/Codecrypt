@@ -98,7 +98,7 @@ export default class Lab extends Component {
                              />  
                   </div>
                   <div className="form-group">
-                      <input type="submit" value="Create User" className="btn btn-primary"/>
+                      <input type="submit" value="Sign In" className="btn btn-primary"/>
                   </div>
               </form>
           </div>

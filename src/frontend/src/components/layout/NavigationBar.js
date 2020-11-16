@@ -98,7 +98,7 @@ function NavigationBar() {
         <Nav.Link href="/Videos">{t("navigation.1")}</Nav.Link>
         <Nav.Link href="/Experiments">{t("navigation.2")}</Nav.Link>
         <Nav.Link href="/Quiz">{t("navigation.3")}</Nav.Link>
-        <Nav.Link href="/Lab">{t("navigation.4")}</Nav.Link>
+        <Nav.Link href="/Labpage">{t("navigation.4")}</Nav.Link>
 
   
 
