@@ -25,6 +25,7 @@ import {
 
 import emailjs from "emailjs-com";
 import GoogleMapReact from "google-map-react";
+import { useTranslation } from "react-i18next";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 function sendEmail(e) {
@@ -50,7 +51,7 @@ function sendEmail(e) {
   e.target.reset();
 }
 function Home(){
- 
+  const { t, i18n } = useTranslation();
     return (
       <React.Fragment>
       <Carousel >
@@ -303,48 +304,48 @@ function Home(){
               <div style={{ marginRight: "5%" }}>
                 <MDBCard>
                   <MDBCardBody>
-                    <form onSubmit={sendEmail}>
-                      <p className="h5 text-center mb-4">Write to us</p>
-                      <div className="grey-text">
-                        <MDBInput
-                          name="Name"
-                          label="Your name"
-                          icon="user"
-                          group
-                          type="text"
-                          validate
-                          error="wrong"
-                          success="right"
-                          containerClass="text-left"
-                        />
-                        <MDBInput
-                          name="Email"
-                          label="Your email"
-                          icon="envelope"
-                          group
-                          type="email"
-                          validate
-                          error="wrong"
-                          success="right"
-                          containerClass="text-left"
-                        />
+                  <form onSubmit={sendEmail}>
+                  <p className="h5 text-center mb-4">{t("Message.1")}</p>
+                  <div className="grey-text">
+                    <MDBInput
+                      name="Name"
+                      label={t("Message.2")}
+                      icon="user"
+                      groharry  up
+                      type="text"
+                      validate
+                      error="wrong"
+                      success="right"
+                      containerClass="text-left"
+                    />
+                    <MDBInput
+                      name="Email"
+                      label={t("Message.3")}
+                      icon="envelope"
+                      group
+                      type="email"
+                      validate
+                      error="wrong"
+                      success="right"
+                      containerClass="text-left"
+                    />
 
-                        <MDBInput
-                          name="Message"
-                          type="textarea"
-                          rows="2"
-                          label="Your message"
-                          icon="pencil-alt"
-                          containerClass="text-left"
-                        />
-                      </div>
-                      <div className="text-center">
-                        <MDBBtn outline color="info" type="submit">
-                          Send
-                          <MDBIcon far icon="paper-plane" className="ml-1" />
-                        </MDBBtn>
-                      </div>
-                    </form>
+                    <MDBInput
+                      name="Message"
+                      type="textarea"
+                      rows="2"
+                      label={t("Message.4")}
+                      icon="pencil-alt"
+                      containerClass="text-left"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <MDBBtn outline color="info" type="submit">
+                      {t("Message.5")}
+                      <MDBIcon far icon="paper-plane" className="ml-1" />
+                    </MDBBtn>
+                  </div>
+                </form>
                   </MDBCardBody>
                 </MDBCard>
               </div>

@@ -1,156 +1,146 @@
-import React,{useState} from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Card } from "react-bootstrap";
-// import { Carousel, Jumbotron, Figure } from "react-bootstrap";
+import React, { useState } from 'react';
+import { Jumbotron } from 'react-bootstrap';
+import "../css/Quiz.css";
+import { useTranslation } from "react-i18next";
 
-import { Button } from "react-bootstrap";
-import { CardDeck } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel, Jumbotron } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import "bootstrap-css-only/css/bootstrap.min.css";
-
-import "mdbreact/dist/css/mdb.css";
-
-import "../css/Home.css";
-import {
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBBtn,
-  MDBIcon,
-  MDBCard,
-  MDBInput,
-  MDBCardBody,
-} from "mdbreact";
-
-import emailjs from "emailjs-com";
-import GoogleMapReact from "google-map-react";
-
-function Quiz1(){
-    const [score, setScore] = useState(0);
-    const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [questionnum, setQuestionNum] = useState(1);
-    const [showScore, setShowScore] = useState(false);
-
-    const question_data = [
+function Quiz1() {
+    const { t, i18n } = useTranslation();
+	const questions = [
 		{
-            question_id :1,
-			questionText: 'What is a naming system given to different computers which adapt to human-readable domain names.',
+			questionText:t("quiz1.Q1.ques"),
 			answerOptions: [
-				{ answerText: 'HTTP', isCorrect: false },
-				{ answerText: 'DNS', isCorrect: true },
-				{ answerText: 'WWW', isCorrect: false  },
-				{ answerText: 'ISP', isCorrect: false },
+				{ answerText: t("quiz1.Q1.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q1.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q1.c"), isCorrect: false  },
+				{ answerText: t("quiz1.Q1.d"), isCorrect: true},
 			],
 		},
 		{
-            question_id :2,
-			questionText: 'DNS stands for ______',
+            questionText:t("quiz1.Q2.ques"),
 			answerOptions: [
-				{ answerText: 'Data Name System', isCorrect: false },
-				{ answerText: 'Domain Name Server', isCorrect: false },
-				{ answerText: 'Domain Name System', isCorrect: true  },
-				{ answerText: 'Domain’s Naming System', isCorrect: false },
+				{ answerText: t("quiz1.Q2.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q2.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q2.c"), isCorrect: true  },
+				{ answerText: t("quiz1.Q2.d"), isCorrect: false },
 			],
 		},
 		{
-            question_id :3,
-			questionText: 'Some security issues might exist owing to misconfigured __________________ which can direct to disclosure of information regarding the domain.',
+			questionText:t("quiz1.Q3.ques"),
 			answerOptions: [
-				{ answerText: 'DNS names', isCorrect: true },
-            { answerText: 'HTTP setup', isCorrect: false },
-				{ answerText: 'ISP setup', isCorrect: false },
-				{ answerText: 'FTP-unsecured', isCorrect: false },
+				{ answerText: t("quiz1.Q3.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q3.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q3.c"), isCorrect: false  },
+				{ answerText: t("quiz1.Q3.d"), isCorrect: true },
 			],
 		},
-		
-    ];
-    const handleAnswerOptionClick = (isCorrect) => {
+		{
+			questionText:t("quiz1.Q4.ques"),
+			answerOptions: [
+				{ answerText: t("quiz1.Q4.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q4.b"), isCorrect: true },
+				{ answerText: t("quiz1.Q4.c"), isCorrect: false  },
+				{ answerText: t("quiz1.Q4.d"), isCorrect: false },
+			],
+        },
+        {
+            questionText:t("quiz1.Q5.ques"),
+			answerOptions: [
+				{ answerText: t("quiz1.Q5.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q5.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q5.c"), isCorrect: true  },
+				{ answerText: t("quiz1.Q5.d"), isCorrect: false },
+			],
+        },
+        {
+			questionText:t("quiz1.Q6.ques"),
+			answerOptions: [
+				{ answerText: t("quiz1.Q6.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q6.b"), isCorrect: true },
+				{ answerText: t("quiz1.Q6.c"), isCorrect: false  },
+				{ answerText: t("quiz1.Q6.d"), isCorrect: false },
+			],
+        },
+        {
+      
+            questionText:t("quiz1.Q7.ques"),
+			answerOptions: [
+				{ answerText: t("quiz1.Q7.a"), isCorrect: true },
+				{ answerText: t("quiz1.Q7.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q7.c"), isCorrect: false  },
+				{ answerText: t("quiz1.Q7.d"), isCorrect: false },
+			],
+        },
+        {
+			questionText:t("quiz1.Q8.ques"),
+			answerOptions: [
+				{ answerText: t("quiz1.Q8.a"), isCorrect: true },
+				{ answerText: t("quiz1.Q8.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q8.c"), isCorrect: false  },
+				{ answerText: t("quiz1.Q8.d"), isCorrect: false },
+			],
+        },
+        {
+			questionText:t("quiz1.Q9.ques"),
+			answerOptions: [
+				{ answerText: t("quiz1.Q9.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q9.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q9.c"), isCorrect: true  },
+				{ answerText: t("quiz1.Q9.d"), isCorrect: false },
+			],
+        },
+        {
+            questionText:t("quiz1.Q10.ques"),
+			answerOptions: [
+				{ answerText: t("quiz1.Q10.a"), isCorrect: false },
+				{ answerText: t("quiz1.Q10.b"), isCorrect: false },
+				{ answerText: t("quiz1.Q10.c"), isCorrect: true  },
+				{ answerText: t("quiz1.Q10.d"), isCorrect: false },
+			],
+        },
+       
+	];
+
+	const [currentQuestion, setCurrentQuestion] = useState(0);
+	const [showScore, setShowScore] = useState(false);
+	const [score, setScore] = useState(0);
+
+	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
 			setScore(score + 1);
 		}
 
 		const nextQuestion = currentQuestion + 1;
-		if (nextQuestion < question_data.length) {
+		if (nextQuestion < questions.length) {
 			setCurrentQuestion(nextQuestion);
 		} else {
 			setShowScore(true);
 		}
 	};
-    // const question_data = {
-    //     questions: [
-    //       {
-    //         n:1,
-    //         q:"What is a naming system given to different computers which adapt to human-readable domain names.",
-    //         a:"HTTP",
-    //         b:"DNS",
-    //         c:"WWW",
-    //         d:"ISP",
-    //         ans:"b",
-    //       },
-    //       {
-    //         n:2,
-    //         q:"DNS stands for ______",
-    //         a:"Data Name System",
-    //         b:"Domain Name Server",
-    //         c:"Domain Name System",
-    //         d:"Domain’s Naming System",
-    //         ans:"c",
-    //       },
-    //       {
-    //         n:3,
-    //         q:"Some security issues might exist owing to misconfigured __________________ which can direct to disclosure of information regarding the domain.",
-    //         a:"DNS names",
-    //         b:"HTTP setup",
-    //         c:"ISP setup",
-    //         d:"FTP-unsecured",
-    //         ans:"a",
-    //       },
-    //     ],
-    //   };
- 
-//     return (
-//         <React.Fragment>
-//     <div style={{fontSize:"300%" ,marginTop:"2%"}}>
-//         DNS Spoofing Quiz
-//     </div>
-//      <div>
-//     {question_data.map((question) => {
-//          if( question.question_id == questionnum  )
-//          return(
-//             <div> 
-//                 {question.questionText}
-//                 <form>
-
-//                 </form>
-//             </div>
-//          )
-    
-
-//         {question.answerOptions.map((answerOption) => (
-//             <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-//         ))}
-    
-
-
-      
-//          })};
-// </div> 
-// </React.Fragment>
-//     );
-return(
-    <React.Fragment>
-        <div >
-            {question_data[currentQuestion].questionText}</div>
-            <div >
-						{question_data[currentQuestion].answerOptions.map((answerOption) => (
+	return (
+        <Jumbotron style={{color:"pink", backgroundColor:"pink", height:"800px"}}>
+            <div style={{color:"black", fontSize:"500%"}}>DNS Spoofing Quiz</div>
+		<div className='app'>
+			{showScore ? (
+				<div className='score-section'>
+					You scored {score} out of {questions.length}
+				</div>
+			) : (
+				<div>
+					<div className='question-section'>
+						<div className='question-count'>
+							<span>Question {currentQuestion + 1}/{questions.length}</span>
+						</div>
+						<div className='question-text'>{questions[currentQuestion].questionText}</div>
+					</div>
+					<div className='answer-section'>
+						{questions[currentQuestion].answerOptions.map((answerOption) => (
 							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 						))}
 					</div>
-    </React.Fragment>
-)
-  
+				</div>
+			)}
+		</div>
+        </Jumbotron>
+	);
 }
 export default Quiz1;

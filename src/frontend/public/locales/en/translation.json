@@ -1,12 +1,7 @@
 {
-  "Search": {
-    "1": "Search"
-  },
-  "View Catalogue": {
-    "1": "View Catalogue"
-  },
+  
   "Language": {
-    "1": "भाषा"
+    "1": "भाषा बदलो"
   },
   "ChangeLang": {
     "1": "hi"
@@ -17,5 +12,93 @@
     "3": "Your email",
     "4": "Your message",
     "5": "Send"
+  },
+  "navigation":{
+    "1":"Videos",
+    "2":"Experiments",
+    "3":"Quizzes",
+    "4":"Lab"
+  },
+  "quiz2":{
+    "Q1":{
+      "ques": " __________ is a naming system given to different computers which adapt to human-readable domain names.",
+      "a":"HTTP",
+      "b":"DNS",
+      "c":"WWW",
+      "d":"ISP"}
+  },
+  "quiz1":{
+    "topic":"AES",
+    "Q1":{
+      "ques": "AES uses a ____________ bit block size and a key size of __________ bits.",
+      "a":"128; 128 or 256",
+      "b":"64; 128 or 192",
+      "c":"256; 128, 192, or 256",
+      "d":"128; 128, 192, or 256"
+    },
+    "Q2":{
+      "ques": "How many rounds does the AES-256 perform?",
+      "a":"10",
+      "b":"12",
+      "c":"14",
+      "d":"16"
+    },
+    "Q3":{
+      "ques": "In AES the 4×4 bytes matrix key is transformed into a keys of size __________ .",
+      "a":"32 words",
+      "b":"64 words",
+      "c":"54 words",
+      "d":"44 words"
+    },
+    "Q4":{
+      "ques": "For the cipher text 0000 0111 0011 1000 and Key 0110 1111 0110 1011, apply the Simplified AES to obtain the plaintext. The plain text is",
+      "a":"0110 1001 0111 0001",
+      "b":"0110 1111 0110 1011",
+      "c":"0010 1001 0110 1011",
+      "d":"1111 0101 0111 1111"
+    },
+    "Q5":{
+      "ques": "The multiplicative inverse of 0x95 in AES where m(x)=x8+x4+x3+x+1 is",
+      "a":"0x8F",
+      "b":"0xF8",
+      "c":"0x8A",
+      "d":"0xA8"
+    },
+    "Q6":{
+      "ques": "How many computation rounds does the simplified AES consists of?",
+      "a":"5",
+      "b":"2",
+      "c":"8",
+      "d":"10"
+    },
+    "Q7":{
+      "ques": "For the case of Mixed Columns and Inverse Mixed Columns, is it true that b(x) = a-1(x) mod (x4 + 1), where a(x) = {03}x3 + {01}x2 + {01}x + {02} and b(x) = {0B}x3 + {0D}x2 + {09}x + {0E}",
+      "a":"True",
+      "b":"False. The expression for a(x) is wrong.",
+      "c":"False. The expression for b(x) is wrong.",
+      "d":"False. Both a(x) and b(x) are faulty."
+    },
+    "Q8":{
+      "ques": "For an input key of size 128 bits constituting all zeros, what is w(7) ?",
+      "a":"{62 63 63 63}",
+      "b":"{62 62 62 62}",
+      "c":"{00 00 00 00}",
+      "d":"{63 63 63 62}"
+    },
+    "Q9":{
+      "ques": "On comparing AES with DES, which of the following functions from DES does not have an equivalent AES function?",
+      "a":"f function",
+      "b":"permutation p",
+      "c":"swapping of halves",
+      "d":"xor of subkey with function f"
+    },
+    "Q10":{
+      "ques": "Which of the following are true:\\n i) In the AES key expansion algorithm, the function g() operates on w i+3 \\n ii) Perform a one-byte right circular rotation on the argument 4-byte word \\n iii) The round constant follows the formula RC[j] = RC[j − 1]",
+      "a":"i) ii)",
+      "b":"ii) only",
+      "c":"i)",
+      "d":"i) ii) iii)"
+    }
   }
+
 }

@@ -93,15 +93,22 @@ function NavigationBar() {
      
       <Navbar.Brand href="/">KnowledgeSecure</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/Factories">About</Nav.Link>
-        <Nav.Link href="/Videos">Videos</Nav.Link>
-        <Nav.Link href="/Experiments">Experiments</Nav.Link>
-        <Nav.Link href="/Quiz">Quizzes</Nav.Link>
-        <Nav.Link href="/Lab">Lab</Nav.Link>
+      
+        {/* <Nav.Link href="/Factories">About</Nav.Link> */}
+        <Nav.Link href="/Videos">{t("navigation.1")}</Nav.Link>
+        <Nav.Link href="/Experiments">{t("navigation.2")}</Nav.Link>
+        <Nav.Link href="/Quiz">{t("navigation.3")}</Nav.Link>
+        <Nav.Link href="/Lab">{t("navigation.4")}</Nav.Link>
 
   
+
       </Nav>
+      <Nav classname="mr-right">
+      <Button variant="outline-info"  onClick={() => handleClick()} style={{float:'right',  fontSize:"100%",}}>
+{t("Language.1")}
+</Button>
+</Nav>
+
     </Navbar>
 
   

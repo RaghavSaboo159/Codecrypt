@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { Jumbotron } from 'react-bootstrap';
 import "../css/Quiz.css";
+import { useTranslation } from "react-i18next";
+
 function Quiz2() {
+    const { t, i18n } = useTranslation();
 	const questions = [
 		{
-			questionText: ' __________ is a naming system given to different computers which adapt to human-readable domain names.',
+			questionText:t("quiz1.Q1.ques"),
 			answerOptions: [
 				{ answerText: 'HTTP', isCorrect: false },
 				{ answerText: 'DNS', isCorrect: true },
