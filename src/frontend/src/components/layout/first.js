@@ -24,11 +24,11 @@ export default class first extends Component {
 
   render() {
     const mystyle = {
-      color: "white",
+      color: "black",
       backgroundColor: "DodgerBlue",
       padding: "10px",
       fontFamily: "Arial",
-      [font-size] : "100px"
+      // [font-size] : "100px"
     };
       return (
         <h4 style={mystyle}>Hello, world!</h4>
