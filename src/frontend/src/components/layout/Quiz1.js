@@ -118,7 +118,7 @@ function Quiz1() {
 	};
 	return (
         <Jumbotron style={{color:"pink", backgroundColor:"pink", height:"800px"}}>
-            <div style={{color:"black", fontSize:"500%"}}>DNS Spoofing Quiz</div>
+            <div style={{color:"black", fontSize:"500%"}}>{t("quiz1.topic")}</div>
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>

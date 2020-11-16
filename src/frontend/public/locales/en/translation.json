@@ -19,14 +19,39 @@
     "3":"Quizzes",
     "4":"Lab"
   },
-  "quiz2":{
-    "Q1":{
-      "ques": " __________ is a naming system given to different computers which adapt to human-readable domain names.",
-      "a":"HTTP",
-      "b":"DNS",
-      "c":"WWW",
-      "d":"ISP"}
+  "home":{
+    "head":"Experiments ",
+    "contact":"Contact Us",
+
+    "e1":{
+      "topic":"SQL Injection",
+      "content":"SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database."
+    },
+    "e2":
+    {
+      "topic":"DNS Spoofing",
+      "content":"DNS spoofing, also referred to as DNS cache poisoning, is a form of computer security hacking in which corrupt Domain Name System data is introduced into the DNS resolver's cache, causing the name server to return an incorrect result record, e.g. an IP address."
+    },
+    "e3":
+    {
+      "topic":"Cross-site request forgery",
+      "content":"Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from interfering with each other."
+    },
+    "e4":
+    {
+      "topic":"DDOS ATTACK",
+      "content":"A DDoS attack is a malicious attempt to disrupt the normal traffic of a targeted server by overwhelming the target with a flood of Internet traffic."
+    },
+    "e5":
+    {
+      "topic":"Cross-site Scripting",
+      "content":"Cross-site Scripting (XSS) is a client-side code injection attack. The attacker aims to execute malicious scripts in a web browser of the victim by including malicious code in a legitimate web page or web application. "
+    }
+
+
+
   },
+ 
   "quiz1":{
     "topic":"AES",
     "Q1":{
@@ -99,6 +124,216 @@
       "c":"i)",
       "d":"i) ii) iii)"
     }
+  },
+
+
+  "quiz2":{
+    "topic":"DNS Spoofing",
+    "Q1":{
+      "ques": " __________ is a naming system given to different computers which adapt to human-readable domain names.",
+      "a":"HTTP",
+      "b":"DNS",
+      "c":"WWW",
+      "d":"ISP"
+    },
+    "Q2":{
+      "ques": "DNS stands for _____________ .",
+      "a":"Data Name System",
+      "b":"Domain Name Server",
+      "c":"Domain Name System",
+      "d":"Domain’s Naming System"
+    },
+    "Q3":{
+      "ques": "Some security issues might exist owing to misconfigured __________________ which can direct to disclosure of information regarding the domain.",
+      "a":"DNS names",
+      "b":"HTTP setup",
+      "c":"ISP setup",
+      "d":"FTP-unsecured"
+    },
+    "Q4":{
+      "ques": "______________ is a form of nasty online attack in which a user gets redirects queries to a DNS because of override of system’s TCP/IP settings.",
+      "a":"DNS mal-functioning",
+      "b":"DNS cracking",
+      "c":"DNS redirecting",
+      "d":"DNS hijacking"
+    },
+    "Q5":{
+      "ques": "There are _________ main types of DNS hijacking.",
+      "a":"4",
+      "b":"2",
+      "c":"3",
+      "d":"5"
+    },
+    "Q6":{
+      "ques": "A ______________ is essentially a text file residing on the server that hosts different domain containing entries for dissimilar resource records.",
+      "a":"Zone file",
+      "b":"Robot file",
+      "c":"Bot file",
+      "d":"DNS file"
+    },
+    "Q7":{
+      "ques": "The user could be influenced by DNS hijacking if the government of that country uses DNS redirecting as a mechanism to mask censorship.",
+      "a":"True",
+      "b":"False"
+    },
+    "Q8":{
+      "ques": "DNS poisoning is very dangerous because it can extend its reach from one ___________ to another.",
+      "a":"ISP server",
+      "b":"DNS server",
+      "c":"Linux server",
+      "d":"Domain user"
+    }
+  },
+
+  "quiz3":{
+    "topic":"Cross Site Request Forgery",
+    "Q1":{
+      "ques": "As a web application user, what puts you at most risk to fall victim to a cross-site request forgery (CSRF) attack ?",
+      "a":"Using an old browser",
+      "b":"Using a web app that is not fully protected by SSL/TLS",
+      "c":"Using the \"keep me logged in\" option offered by web apps",
+      "d":"Using weak passwords"
+    },
+    "Q2":{
+      "ques": "If you want your web application to defend itself against cross-site scripting attacks that steal session IDs, which cookie attribute is best able to help you ?",
+      "a":"Secure",
+      "b":"Path",
+      "c":"Expires",
+      "d":"HttpOnly"
+    },
+    "Q3":{
+      "ques": "Your web application allows users to download their account statements in PDF format. What is the most secure way to implement this functionality ?",
+      "a":"Store all PDFs in an obscure directory on the web server and provide a link to the correct PDF depending on the user.",
+      "b":"Generate the PDF on the fly, write it to a temporary directory on the server, and redirect the browser to that location (via 302 response).",
+      "c":"Generate the PDF on the fly, store it in memory on the server, and send the bytes of the PDF to the browser directly (via 200 response).",
+      "d":"Store the PDFs in a database and retrieve the correct PDF by looking at the identifier/primary key provided in the HTTP request."
+    },
+    "Q4":{
+      "ques": "What is one way developers can defend against forced browsing attacks ?",
+      "a":"Incorporate GUIDs into file names",
+      "b":"Log all user activity",
+      "c":"Validate input data",
+      "d":"Use a sensible directory naming scheme"
+    },
+    "Q5":{
+      "ques": "All web applications are vulnerable to CSRF attacks unless there's a specific protection mechanism in place.",
+      "a":"True",
+      "b":"False"
+    }
+  },
+  "quiz4":{
+    "topic":"Perfect Secrecy",
+    "Q1":{
+      "ques": "Cryptosystems are used for",
+      "a":"Privacy",
+      "b":"Authentication",
+      "c":"Privacy & Authentication",
+      "d":"None of the mentioned"
+    },
+    "Q2":{
+      "ques": "The system which has insufficient information available to crypt-analyst is",
+      "a":"One-time pad",
+      "b":"Unconditionally secure",
+      "c":"One-time pad & Unconditionally secure",
+      "d":"None of the mentioned"
+    },
+    "Q3":{
+      "ques": "In Caesar cipher, each plain text is replaced by",
+      "a":"Alphabet shift",
+      "b":"Numerals",
+      "c":"Symbols",
+      "d":"None of the mentioned"
+    },
+    "Q4":{
+      "ques": "In Vigenere method ______ is provided.",
+      "a":"Priming key",
+      "b":"Feedback",
+      "c":"Priming key & Feedback",
+      "d":"None of the mentioned"
+    },
+    "Q5":{
+      "ques": "A cipher system is said to have perfect secrecy if",
+      "a":"Posteriori probability is equal to priori probability",
+      "b":"Posteriori probability is greater than priori probability",
+      "c":"Posteriori probability is less than priori probability",
+      "d":"None of the mentioned"
+    },
+    "Q6":{
+      "ques": "The conditions for perfect secrecy are",
+      "a":"Only one key transforming message should exist",
+      "b":"All keys should be equally likely",
+      "c":"One key transforming message to each cipher text & all keys should be equally likely",
+      "d":"None of the mentioned"
+    }
+  },
+    "quiz5":{
+      "topic":"DoS Attack",
+      "Q1":{
+        "ques": "During a DoS attack, the regular traffic on the target _____________ will be either dawdling down or entirely interrupted.",
+        "a":"network",
+        "b":"system",
+        "c":"website",
+        "d":"router"
+      },
+      "Q2":{
+        "ques": "The intent of a ______________ is to overkill the targeted server’s bandwidth and other resources of the target website.",
+        "a":"Phishing attack",
+        "b":"DoS attack",
+        "c":"Website attack",
+        "d":"MiTM attack"
+      },
+      "Q3":{
+        "ques": "A DoS attack coming from a large number of IP addresses, making it hard to manually filter or crash the traffic from such sources is known as a _____________ .",
+        "a":"GoS attack",
+        "b":"PDoS attack",
+        "c":"DoS attack",
+        "d":"DDoS attack"
+      },
+      "Q4":{
+        "ques": "DDoS stands for _________________ .",
+        "a":"Direct Distribution of Server",
+        "b":"Distributed Denial of Service",
+        "c":"Direct Distribution of Service",
+        "d":"Distributed Denial of Server"
+      },
+      "Q5":{
+        "ques": "There are ______ types of DoS attack.",
+        "a":"2",
+        "b":"3",
+        "c":"4",
+        "d":"5"
+      },
+      "Q6":{
+        "ques": "Application layer DoS attack is also known as _______________ .",
+        "a":"Layer4 DoS attack",
+        "b":"Layer5 DoS attack",
+        "c":"Layer6 DoS attack",
+        "d":"Layer7 DoS attack"
+      },
+      "Q7":{
+        "ques": "___________ is a type of DoS threats to overload a server as it sends a large number of requests requiring resources for handling & processing.",
+        "a":"Network Layer DoS",
+        "b":"Physical Layer DoS",
+        "c":"Transport Layer DoS",
+        "d":"Application Layer DoS"
+      },
+      "Q8":{
+        "ques": "Which of the following is not a type of application layer DoS?",
+        "a":"HTTP flooding",
+        "b":"Slowloris",
+        "c":"TCP flooding",
+        "d":"DNS query flooding"
+      },
+      "Q9":{
+        "ques": "Which of the following do not come under network layer DoS flooding?",
+        "a":"DNS amplification",
+        "b":"UDP flooding",
+        "c":"DNS query flooding",
+        "d":"NTP Amplification"
+      }
+    }
+  
   }
 
-}
+
+

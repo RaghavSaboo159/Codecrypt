@@ -80,21 +80,7 @@ function Home(){
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        {/* <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="b3.jpeg"
-            alt="Third slide"
-            height="700rem"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item> */}
+     
       </Carousel>
       <Jumbotron
         style={{
@@ -109,7 +95,7 @@ function Home(){
             marginBottom: "2%",
           }}
         >
-          EXPERIMENTS COVERED
+            {t("home.head")}
         </p>
         <CardDeck
         style={{
@@ -120,74 +106,50 @@ function Home(){
           marginBottom: "3%",
         }}
       >
-        <Card style={{height :"10rem" ,marginRight:"3rem"}}>
+        <Card style={{ marginRight:"3rem"}}>
          
-          <a href="http://localhost:3000/FAC">
             <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
-                {" "}
-                SQL INJECTION
+                {t("home.e1.topic")}
+              
               </p>
               <hr></hr>
               <p style={{  color: "black" }}>
-                {" "}
-                SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
+              {t("home.e1.content")}
               </p>
              
             </Card.Body>
-          </a>
         </Card>
-        <Card style={{height :"10rem" ,marginRight:"3rem"}}>
+        <Card style={{marginRight:"3rem"}}>
          
-          <a href="http://localhost:3000/FAC">
             <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
-                {" "}
-                DNS spoofing
+              {t("home.e2.topic")}
+              
               </p>
               <hr></hr>
               <p style={{  color: "black" }}>
-                {" "}
-              DNS spoofing, also referred to as DNS cache poisoning, is a form of computer security hacking in which corrupt Domain Name System data is introduced into the DNS resolver's cache, causing the name server to return an incorrect result record, e.g. an IP address.
+              {t("home.e2.content")}
+              
               </p>
              
             </Card.Body>
-          </a>
         </Card>
-        <Card style={{height :"10rem" ,marginRight:"3rem"}}>
+        <Card style={{ marginRight:"3rem"}}>
          
-          <a href="http://localhost:3000/FAC">
             <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
-                {" "}
-                CSRF
+              {t("home.e3.topic")}
+              
               </p>
               <hr></hr>
               <p style={{  color: "black" }}>
-                {" "}
-                Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from interfering with each other.
+              {t("home.e3.content")}
               </p>
              
             </Card.Body>
-          </a>
         </Card>
-        <Card style={{height :"10rem" }}>
-         
-          <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
-              <p style={{ fontSize: "220%", color: "black" }}>
-                {" "}
-                SQL INJECTION
-              </p>
-              <hr></hr>
-              <p style={{  color: "black" }}>
-                {" "}
-                SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
-              </p>
-             
-            </Card.Body>
-          </a>
-        </Card>
+     
       
        
        
@@ -197,81 +159,60 @@ function Home(){
         style={{
           // marginRight: "36%",
           marginLeft: "2%",
-          marginTop: "8%",
+          marginTop: "5%",
           marginRight:"2%",
           marginBottom: "5%",
         }}
       >
-        <Card style={{height :"10rem" ,marginRight:"3rem"}}>
+        <Card style={{marginRight:"3rem"}}>
          
-          <a href="http://localhost:3000/FAC">
+         
             <Card.Body style={{backgroundColor:"#e8bcd8"}}>
               <p style={{ fontSize: "220%", color: "black" }}>
+              {t("home.e4.topic")}
+              
+              </p>
+              <hr></hr>
+              <p style={{  color: "black" }}>
+              {t("home.e4.content")}
+              </p>
+             
+            </Card.Body>
+          
+        </Card>
+        <Card style={{marginRight:"3rem"}}>
+         
+          {/* <a href="http://localhost:3000/FAC"> */}
+            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
+              <p style={{ fontSize: "220%", color: "black" }}>
+              {t("home.e5.topic")}
+              </p>
+              <hr></hr>
+              <p style={{  color: "black" }}>
+              {t("home.e5.content")}
+              </p>
+             
+            </Card.Body>
+          {/* </a> */}
+        </Card>
+        <Card style={{marginRight:"3rem"}}>
+         
+          {/* <a href="http://localhost:3000/FAC"> */}
+            <Card.Body style={{backgroundColor:"#d6d6d4"}}>
+              <p style={{ fontSize: "220%", color: "black" }}>
                 {" "}
-                SQL INJECTION
+                {/* DDOS ATTACK */}
               </p>
               <hr></hr>
               <p style={{  color: "black" }}>
                 {" "}
-                SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
+                {/* A DDoS attack is a malicious attempt to disrupt the normal traffic of a targeted server by overwhelming the target with a flood of Internet traffic. */}
               </p>
              
             </Card.Body>
-          </a>
+          {/* </a> */}
         </Card>
-        <Card style={{height :"10rem" ,marginRight:"3rem"}}>
-         
-          <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
-              <p style={{ fontSize: "220%", color: "black" }}>
-                {" "}
-                SQL INJECTION
-              </p>
-              <hr></hr>
-              <p style={{  color: "black" }}>
-                {" "}
-                SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
-              </p>
-             
-            </Card.Body>
-          </a>
-        </Card>
-        <Card style={{height :"10rem" ,marginRight:"3rem"}}>
-         
-          <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
-              <p style={{ fontSize: "220%", color: "black" }}>
-                {" "}
-                DDOS ATTACK
-              </p>
-              <hr></hr>
-              <p style={{  color: "black" }}>
-                {" "}
-                A DDoS attack is a malicious attempt to disrupt the normal traffic of a targeted server by overwhelming the target with a flood of Internet traffic.
-              </p>
-             
-            </Card.Body>
-          </a>
-        </Card>
-        <Card style={{height :"10rem" }}>
-         
-          <a href="http://localhost:3000/FAC">
-            <Card.Body style={{backgroundColor:"#e8bcd8"}}>
-              <p style={{ fontSize: "220%", color: "black" }}>
-                {" "}
-                SQL INJECTION
-              </p>
-              <hr></hr>
-              <p style={{  color: "black" }}>
-                {" "}
-                SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
-              </p>
-             
-            </Card.Body>
-          </a>
-        </Card>
-      
-       
+        
        
       </CardDeck>
         </Jumbotron>
@@ -289,7 +230,7 @@ function Home(){
             marginTop: "-2%",
           }}
         >
-          CONTACT US
+            {t("home.contact")}
         </p>
         <MDBContainer
           style={{

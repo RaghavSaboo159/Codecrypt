@@ -27,9 +27,10 @@ import {
 
 import emailjs from "emailjs-com";
 import GoogleMapReact from "google-map-react";
+import { useTranslation } from "react-i18next";
 
 function Quiz(){
- 
+    const { t, i18n } = useTranslation();
     return (
       <React.Fragment>
     <p style={{fontSize:"300%" ,marginTop:"2%",color:"black"}}>
@@ -38,18 +39,27 @@ function Quiz(){
 
 <CardDeck style={{marginRight:"2rem " ,marginLeft:"2rem" ,marginTop:"3%"}}>
     <Card style={{marginRight:"1rem" , backgroundColor:"pink"}}>
-  
+  <a href="/Quiz1">
 <Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
-Advanced Encryption Standard 
+{t("quiz1.topic")}
 </Card.Body>
+</a>
 </Card>
 <Card style={{marginRight:"2 rem" ,backgroundColor:"pink"}}>
 
-<Card.Body style={{color:"Black" ,fontSize:"300%"}}>DNS Spoofing</Card.Body>
+<a href="/Quiz2">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz2.topic")}
+</Card.Body>
+</a>
 </Card>
 <Card style={{backgroundColor:"pink"}}>
 
-        <Card.Body style={{color:"Black" ,fontSize:"300%"}}>Cross Site Request Forgery</Card.Body>
+<a href="/Quiz3">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz3.topic")}
+</Card.Body>
+</a>
 </Card>
 
 </CardDeck>
@@ -57,15 +67,19 @@ Advanced Encryption Standard
 <CardDeck style={{marginRight:"2rem " ,marginLeft:"2rem" ,marginTop:"3%" , marginBottom:"3%"}}>
     <Card style={{marginRight:"1rem" ,backgroundColor:"pink"}}>
  
-<Card.Body style={{color:"Black" ,fontSize:"300%"}}>
-    Cross Site Scripting
+    <a href="/Quiz4">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz4.topic")}
 </Card.Body>
+</a>
 </Card>
 <Card style={{marginRight:"2 rem", backgroundColor:"pink"}}>
 
-<Card.Body style={{color:"Black" ,fontSize:"300%"}}>
-  SQL Injection
+<a href="/Quiz5">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz5.topic")}
 </Card.Body>
+</a>
 </Card>
 
 <Card style={{backgroundColor:"pink"}}>
