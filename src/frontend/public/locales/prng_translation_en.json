@@ -1,0 +1,90 @@
+{
+
+  "Language": {
+    "1": "भाषा बदलो"
+  },
+  "ChangeLang": {
+    "1": "hi"
+  },
+  "Message": {
+    "1": "Write to us",
+    "2": "Your name",
+    "3": "Your email",
+    "4": "Your message",
+    "5": "Send"
+  },
+  "navigation":{
+    "1":"Videos",
+    "2":"Experiments",
+    "3":"Quizzes",
+    "4":"Lab"
+  },
+  "quiz1":{
+    "topic":"Pseudo Random Number Generator",
+    "Q1":{
+      "ques": "Which among the following cannot be used in the case of stream ciphers ?",
+      "a":"TRNGs",
+      "b":"PRNGs",
+      "c":"PRFs",
+      "d":"All of the mentioned"
+    },
+    "Q2":{
+      "ques": "A stream cipher key is usually of size ___ or 128 bits.",
+      "a":"56",
+      "b":"64",
+      "c":"54",
+      "d":"48"
+    },
+    "Q3":{
+      "ques": "Which among the following has the lowest bitrate ?",
+      "a":"PRF",
+      "b":"TRNG",
+      "c":"PRNG",
+      "d":"All have the same bitrate"
+    },
+    "Q4":{
+      "ques": "RC4 was built on the sole purpose of generating random bits i.e. to act as a PRNG.",
+      "a":"True",
+      "b":"False"
+    },
+    "Q5":{
+      "ques": "Maurer’s Universal Statistical Test is",
+      "a":"a test to determine whether the number of runs of ones and zeros of various lengths is as expected",
+      "b":"a test to detect if a sequence can be significantly compressed without loss of information",
+      "c":"a test to determine whether the number of ones and zeros in a sequence is approx the same as in a truly random o/p",
+      "d":"a test for the check of evenness in the 1s and 0s"
+    },
+    "Q6":{
+      "ques": "We should not be able to determine the seed from any previous knowledge of the bits sequence. This is the property of backward unpredictability.",
+      "a":"True",
+      "b":"False"
+    },
+    "Q7":{
+      "ques": "Forward Unpredictability is a property when the seed is unknown, and the next output bit is the sequence should be unpredictable.",
+      "a":"True",
+      "b":"False"
+    },
+    "Q8":{
+      "ques": "A rule to check for a large number N being a prime number",
+      "a":"by dividing N by every even integer less than N/2",
+      "b":"by dividing N by every odd integer less than root(N)",
+      "c":"by dividing N by every even integer less than root(N)",
+      "d":"by dividing N by every integer less than N/2"
+    },
+    "Q9":{
+      "ques": "The property that there should be equally likely number of 1s and 0s in a Pseudo Random Number sequence is",
+      "a":"Scalability",
+      "b":"Uniformity",
+      "c":"Stability",
+      "d":"Consistency"
+    },
+    "Q10":{
+      "ques": "The property that any extracted subsequence should pass the test for randomness is",
+      "a":"Scalability",
+      "b":"Uniformity",
+      "c":"Stability",
+      "d":"Consistency"
+    }
+  }
+
+}
