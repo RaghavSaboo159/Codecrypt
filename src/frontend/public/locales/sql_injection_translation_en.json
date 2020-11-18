@@ -1,0 +1,82 @@
+{
+
+  "Language": {
+    "1": "भाषा बदलो"
+  },
+  "ChangeLang": {
+    "1": "hi"
+  },
+  "Message": {
+    "1": "Write to us",
+    "2": "Your name",
+    "3": "Your email",
+    "4": "Your message",
+    "5": "Send"
+  },
+  "navigation":{
+    "1":"Videos",
+    "2":"Experiments",
+    "3":"Quizzes",
+    "4":"Lab"
+  },
+  "quiz1":{
+    "topic":"SQL Injection",
+    "Q1":{
+      "ques": "SQL injection is an attack in which _________ code is inserted into strings that are later passed to an instance of SQL Server.",
+      "a":"malicious",
+      "b":"redundant",
+      "c":"clean",
+      "d":"non malicious"
+    },
+    "Q2":{
+      "ques": "Point out the correct statement.",
+      "a":"Parameterized data cannot be manipulated by a skilled and determined attacker",
+      "b":"Procedure that constructs SQL statements should be reviewed for injection vulnerabilities",
+      "c":"The primary form of SQL injection consists of indirect insertion of code",
+      "d":"None of the mentioned"
+    },
+    "Q3":{
+      "ques": "Which of the following script is an example of SQL injection attack ?",
+      "a":"var Shipcity;\\nShipCity = Request.form (\"ShipCity\");\\nvar SQL = \"select * from OrdersTable where ShipCity = '\" + ShipCity + \"'\";",
+      "b":"var Shipcity;\\nShipCity = Request.form (\"ShipCity\");",
+      "c":"var Shipcity;\\nvar SQL = \"select * from OrdersTable where ShipCity = '\" + ShipCity + \"'\";",
+      "d":"All of the mentioned"
+    },
+    "Q4":{
+      "ques": "Any user-controlled parameter that gets processed by the application includes vulnerabilities like ___________",
+      "a":"Host-related information",
+      "b":"Browser-related information",
+      "c":"Application parameters included as part of the body of a POST request",
+      "d":"All of the mentioned"
+    },
+    "Q5":{
+      "ques": "Point out the wrong statement.",
+      "a":"SQL injection vulnerabilities occur whenever input is used in the construction of an SQL query without being adequately constrained or sanitized",
+      "b":"SQL injection allows an attacker to access the SQL servers and execute SQL code under the privileges of the user used to connect to the database",
+      "c":"The use of PL-SQL opens the door to these vulnerabilities",
+      "d":"None of the mentioned"
+    },
+    "Q6":{
+      "ques": "Which of the stored procedure is used to test the SQL injection attack ?",
+      "a":"xp_write",
+      "b":"xp_regwrite",
+      "c":"xp_reg",
+      "d":"all of the mentioned"
+    },
+    "Q7":{
+      "ques": "_______________ is a time based SQL injection attack.",
+      "a":"Quick detection",
+      "b":"Initial Exploitation",
+      "c":"Blind SQL Injection",
+      "d":"Inline Comments"
+    },
+    "Q8":{
+      "ques": "Which one can be used to bypass a basic login screen in case of MySQL ?",
+      "a":"'OR 1=1//",
+      "b":"'OR 1=1",
+      "c":"'OR '1'=1",
+      "d":"'OR 1=1-- -"
+    }
+  }
+
+}
