@@ -1,0 +1,78 @@
+{
+
+  "Language": {
+    "1": "भाषा बदलो"
+  },
+  "ChangeLang": {
+    "1": "hi"
+  },
+  "Message": {
+    "1": "Write to us",
+    "2": "Your name",
+    "3": "Your email",
+    "4": "Your message",
+    "5": "Send"
+  },
+  "navigation":{
+    "1":"Videos",
+    "2":"Experiments",
+    "3":"Quizzes",
+    "4":"Lab"
+  },
+  "quiz1":{
+    "topic":"Cross-site Scripting",
+    "Q1":{
+      "ques": "XSS is:",
+      "a":"Injection of commands",
+      "b":"Injection parameters",
+      "c":"Injection of scripts",
+      "d":"All of the above"
+    },
+    "Q2":{
+      "ques": "Which of the following languages are associated with cross-site scripting?",
+      "a":"C++",
+      "b":"SQL",
+      "c":"XSLT",
+      "d":"JavaScript"
+    },
+    "Q3":{
+      "ques": "Which attack can execute scripts in the user’s browser and is capable of hijacking user sessions, defacing websites or redirecting the user to malicious sites ?",
+      "a":"SQL Injection",
+      "b":"Malware Uploading",
+      "c":"Man in the middle",
+      "d":"Cross site scripting"
+    },
+    "Q4":{
+      "ques": "By exploiting XSS, an attackers can perform a variety of malicious activities, such as:",
+      "a":"Hijack an account",
+      "b":"Control the browser remotely",
+      "c":"Access browser history and clipboard contents",
+      "d":"All of the above"
+    },
+    "Q5":{
+      "ques": "XSS can be prevented by",
+      "a":"Input Validation",
+      "b":"Input Sanitization",
+      "c":"Escaping",
+      "d":"All of the above"
+    },
+    "Q6":{
+      "ques": "<script>document.write(\"Site is at: \" + document.location.href + \".\"); </script>\\nThis may lead to:",
+      "a":"All types of XSS",
+      "b":"Stored XSS",
+      "c":"Reflected XSS",
+      "d":"DOM based XSS"
+    },
+    "Q7":{
+      "ques": "XSS can be exploited by tampering parameters in GET request",
+      "a":"True",
+      "b":"False"
+    },
+    "Q8":{
+      "ques": "XSS can be exploited by including javascript in POST request",
+      "a":"True",
+      "b":"False"
+    }
+  }
+
+}

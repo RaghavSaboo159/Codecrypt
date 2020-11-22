@@ -1,0 +1,87 @@
+{
+
+  "Language": {
+    "1": "भाषा बदलो"
+  },
+  "ChangeLang": {
+    "1": "hi"
+  },
+  "Message": {
+    "1": "Write to us",
+    "2": "Your name",
+    "3": "Your email",
+    "4": "Your message",
+    "5": "Send"
+  },
+  "navigation":{
+    "1":"Videos",
+    "2":"Experiments",
+    "3":"Quizzes",
+    "4":"Lab"
+  },
+  "quiz1":{
+    "topic":"RSA",
+    "Q1":{
+      "ques": "What type of key is not shared and computers cannot decrypt a message without it ?",
+      "a":"Free key",
+      "b":"Private key",
+      "c":"Public key",
+      "d":"Personal key"
+    },
+    "Q2":{
+      "ques": "If the same key is used to encrypt and decrypt a message, this is known as ?",
+      "a":"Symmetric encryption",
+      "b":"Encryption doesn't exist!",
+      "c":"Asymmetric encryption",
+      "d":"Same-key encryption"
+    },
+    "Q3":{
+      "ques": "Find the ciphertext for the message {100110101011011} using superincreasing sequence { 1, 3, 5, 11, 35 } and private keys a = 5 and m=37.",
+      "a":"C = ( 33, 47, 65 )",
+      "b":"C = ( 65, 33, 47 )",
+      "c":"C = ( 47, 33, 65 )",
+      "d":"C = ( 47, 65, 33 )"
+    },
+    "Q4":{
+      "ques": "Suppose that plaintext message units are single letters in the usual 26-letter alphabet with A-Z corresponding to 0-25. You receive the sequence of ciphertext message units 14, 25, 89. The public key is the sequence {57, 14, 3, 24, 8} and the secret key is b = 23, m = 61.\\nDecipher the message. The Plain text is",
+      "a":"TIN",
+      "b":"INT",
+      "c":"KIN",
+      "d":"INK"
+    },
+    "Q5":{
+      "ques": "RSA is also a stream cipher like Merkel-Hellman.",
+      "a":"True",
+      "b":"False"
+    },
+    "Q6":{
+      "ques": "In the RSA algorithm, we select 2 random large values ‘p’ and ‘q’. Which of the following is the property of ‘p’ and ‘q’ ?",
+      "a":"p and q should be divisible by Ф(n)",
+      "b":"p and q should be co-prime",
+      "c":"p and q should be prime",
+      "d":"p/q should give no remainder"
+    },
+    "Q7":{
+      "ques": "In RSA, Ф(n) = _______ in terms of p and q.",
+      "a":"(p)/(q)",
+      "b":"(p)(q)",
+      "c":"(p-1)(q-1)",
+      "d":"(p+1)(q+1)"
+    },
+    "Q8":{
+      "ques": "For p = 11 and q = 19 and choose d=17. Apply RSA algorithm where Cipher message=80 and thus find the plain text.",
+      "a":"54",
+      "b":"43",
+      "c":"5",
+      "d":"24"
+    },
+    "Q9":{
+      "ques": "For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text.",
+      "a":"C=80",
+      "b":"C=92",
+      "c":"C=56",
+      "d":"C=23"
+    }
+  }
+
+}
