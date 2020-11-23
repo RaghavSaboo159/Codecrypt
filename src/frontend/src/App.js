@@ -13,6 +13,12 @@ import Quiz2 from"./components/layout/Quiz2"
 import Quiz3 from"./components/layout/Quiz3"
 import Quiz4 from"./components/layout/Quiz4"
 import Quiz5 from"./components/layout/Quiz5"
+import Quiz6 from"./components/layout/Quiz6"
+import Quiz7 from"./components/layout/Quiz7"
+import Quiz8 from"./components/layout/Quiz8"
+import Quiz9 from"./components/layout/Quiz9"
+
+
 
 // import Quiz2 from"./components/layout/Quiz2"
 
@@ -25,6 +31,7 @@ import firstrep from "./components/layout/firstrep"
 
 
 class App extends Component {
+  
   render() {
     return (
       <Suspense>
@@ -43,7 +50,10 @@ class App extends Component {
               <Route exact path="/Quiz3" component = {Quiz3}/>
               <Route exact path="/Quiz4" component = {Quiz4}/>
               <Route exact path="/Quiz5" component = {Quiz5}/>
-
+              <Route exact path="/Quiz6" component = {Quiz6}/>
+              <Route exact path="/Quiz7" component = {Quiz7}/>
+              <Route exact path="/Quiz8" component = {Quiz8}/>
+              <Route exact path="/Quiz9" component = {Quiz9}/>
 
               <Route exact path="/Labpage" component = {Labpage}/>
               <Route exact path="/Lab" component = {Lab}/>

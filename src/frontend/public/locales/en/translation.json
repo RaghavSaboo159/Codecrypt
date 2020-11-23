@@ -331,7 +331,254 @@
         "c":"DNS query flooding",
         "d":"NTP Amplification"
       }
+    },
+    "quiz6":{
+      "topic":"SQL Injection",
+      "Q1":{
+        "ques": "SQL injection is an attack in which _________ code is inserted into strings that are later passed to an instance of SQL Server.",
+        "a":"malicious",
+        "b":"redundant",
+        "c":"clean",
+        "d":"non malicious"
+      },
+      "Q2":{
+        "ques": "Point out the correct statement.",
+        "a":"Parameterized data cannot be manipulated by a skilled and determined attacker",
+        "b":"Procedure that constructs SQL statements should be reviewed for injection vulnerabilities",
+        "c":"The primary form of SQL injection consists of indirect insertion of code",
+        "d":"None of the mentioned"
+      },
+      "Q3":{
+        "ques": "Which of the following script is an example of SQL injection attack ?",
+        "a":"var Shipcity;\\n ShipCity = Request.form (\"ShipCity\");\\nvar SQL = \"select * from OrdersTable where ShipCity = '\" + ShipCity + \"'\";",
+        "b":"var Shipcity;\\nShipCity = Request.form (\"ShipCity\");",
+        "c":"var Shipcity;\\nvar SQL = \"select * from OrdersTable where ShipCity = '\" + ShipCity + \"'\";",
+        "d":"All of the mentioned"
+      },
+      "Q4":{
+        "ques": "Any user-controlled parameter that gets processed by the application includes vulnerabilities like ___________",
+        "a":"Host-related information",
+        "b":"Browser-related information",
+        "c":"Application parameters included as part of the body of a POST request",
+        "d":"All of the mentioned"
+      },
+      "Q5":{
+        "ques": "Point out the wrong statement.",
+        "a":"SQL injection vulnerabilities occur whenever input is used in the construction of an SQL query without being adequately constrained or sanitized",
+        "b":"SQL injection allows an attacker to access the SQL servers and execute SQL code under the privileges of the user used to connect to the database",
+        "c":"The use of PL-SQL opens the door to these vulnerabilities",
+        "d":"None of the mentioned"
+      },
+      "Q6":{
+        "ques": "Which of the stored procedure is used to test the SQL injection attack ?",
+        "a":"xp_write",
+        "b":"xp_regwrite",
+        "c":"xp_reg",
+        "d":"all of the mentioned"
+      },
+      "Q7":{
+        "ques": "_______________ is a time based SQL injection attack.",
+        "a":"Quick detection",
+        "b":"Initial Exploitation",
+        "c":"Blind SQL Injection",
+        "d":"Inline Comments"
+      },
+      "Q8":{
+        "ques": "Which one can be used to bypass a basic login screen in case of MySQL ?",
+        "a":"'OR 1=1//",
+        "b":"'OR 1=1",
+        "c":"'OR '1'=1",
+        "d":"'OR 1=1-- -"
+      }
+    },
+    "quiz7":{
+      "topic":"Cross-site Scripting",
+      "Q1":{
+        "ques": "XSS is:",
+        "a":"Injection of commands",
+        "b":"Injection parameters",
+        "c":"Injection of scripts",
+        "d":"All of the above"
+      },
+      "Q2":{
+        "ques": "Which of the following languages are associated with cross-site scripting?",
+        "a":"C++",
+        "b":"SQL",
+        "c":"XSLT",
+        "d":"JavaScript"
+      },
+      "Q3":{
+        "ques": "Which attack can execute scripts in the user’s browser and is capable of hijacking user sessions, defacing websites or redirecting the user to malicious sites ?",
+        "a":"SQL Injection",
+        "b":"Malware Uploading",
+        "c":"Man in the middle",
+        "d":"Cross site scripting"
+      },
+      "Q4":{
+        "ques": "By exploiting XSS, an attackers can perform a variety of malicious activities, such as:",
+        "a":"Hijack an account",
+        "b":"Control the browser remotely",
+        "c":"Access browser history and clipboard contents",
+        "d":"All of the above"
+      },
+      "Q5":{
+        "ques": "XSS can be prevented by",
+        "a":"Input Validation",
+        "b":"Input Sanitization",
+        "c":"Escaping",
+        "d":"All of the above"
+      },
+      "Q6":{
+        "ques": "<script>document.write(\"Site is at: \" + document.location.href + \".\"); </script>\\nThis may lead to:",
+        "a":"All types of XSS",
+        "b":"Stored XSS",
+        "c":"Reflected XSS",
+        "d":"DOM based XSS"
+      },
+      "Q7":{
+        "ques": "XSS can be exploited by tampering parameters in GET request",
+        "a":"True",
+        "b":"False"
+      },
+      "Q8":{
+        "ques": "XSS can be exploited by including javascript in POST request",
+        "a":"True",
+        "b":"False"
+      }
+    },
+    "quiz8":{
+      "topic":"Pseudo Random Number Generator",
+      "Q1":{
+        "ques": "Which among the following cannot be used in the case of stream ciphers ?",
+        "a":"TRNGs",
+        "b":"PRNGs",
+        "c":"PRFs",
+        "d":"All of the mentioned"
+      },
+      "Q2":{
+        "ques": "A stream cipher key is usually of size ___ or 128 bits.",
+        "a":"56",
+        "b":"64",
+        "c":"54",
+        "d":"48"
+      },
+      "Q3":{
+        "ques": "Which among the following has the lowest bitrate ?",
+        "a":"PRF",
+        "b":"TRNG",
+        "c":"PRNG",
+        "d":"All have the same bitrate"
+      },
+      "Q4":{
+        "ques": "RC4 was built on the sole purpose of generating random bits i.e. to act as a PRNG.",
+        "a":"True",
+        "b":"False"
+      },
+      "Q5":{
+        "ques": "Maurer’s Universal Statistical Test is",
+        "a":"a test to determine whether the number of runs of ones and zeros of various lengths is as expected",
+        "b":"a test to detect if a sequence can be significantly compressed without loss of information",
+        "c":"a test to determine whether the number of ones and zeros in a sequence is approx the same as in a truly random o/p",
+        "d":"a test for the check of evenness in the 1s and 0s"
+      },
+      "Q6":{
+        "ques": "We should not be able to determine the seed from any previous knowledge of the bits sequence. This is the property of backward unpredictability.",
+        "a":"True",
+        "b":"False"
+      },
+      "Q7":{
+        "ques": "Forward Unpredictability is a property when the seed is unknown, and the next output bit is the sequence should be unpredictable.",
+        "a":"True",
+        "b":"False"
+      },
+      "Q8":{
+        "ques": "A rule to check for a large number N being a prime number",
+        "a":"by dividing N by every even integer less than N/2",
+        "b":"by dividing N by every odd integer less than root(N)",
+        "c":"by dividing N by every even integer less than root(N)",
+        "d":"by dividing N by every integer less than N/2"
+      },
+      "Q9":{
+        "ques": "The property that there should be equally likely number of 1s and 0s in a Pseudo Random Number sequence is",
+        "a":"Scalability",
+        "b":"Uniformity",
+        "c":"Stability",
+        "d":"Consistency"
+      },
+      "Q10":{
+        "ques": "The property that any extracted subsequence should pass the test for randomness is",
+        "a":"Scalability",
+        "b":"Uniformity",
+        "c":"Stability",
+        "d":"Consistency"
+      }
+    },
+    "quiz9":{
+      "topic":"RSA",
+      "Q1":{
+        "ques": "What type of key is not shared and computers cannot decrypt a message without it ?",
+        "a":"Free key",
+        "b":"Private key",
+        "c":"Public key",
+        "d":"Personal key"
+      },
+      "Q2":{
+        "ques": "If the same key is used to encrypt and decrypt a message, this is known as ?",
+        "a":"Symmetric encryption",
+        "b":"Encryption doesn't exist!",
+        "c":"Asymmetric encryption",
+        "d":"Same-key encryption"
+      },
+      "Q3":{
+        "ques": "Find the ciphertext for the message {100110101011011} using superincreasing sequence { 1, 3, 5, 11, 35 } and private keys a = 5 and m=37.",
+        "a":"C = ( 33, 47, 65 )",
+        "b":"C = ( 65, 33, 47 )",
+        "c":"C = ( 47, 33, 65 )",
+        "d":"C = ( 47, 65, 33 )"
+      },
+      "Q4":{
+        "ques": "Suppose that plaintext message units are single letters in the usual 26-letter alphabet with A-Z corresponding to 0-25. You receive the sequence of ciphertext message units 14, 25, 89. The public key is the sequence {57, 14, 3, 24, 8} and the secret key is b = 23, m = 61.\\nDecipher the message. The Plain text is",
+        "a":"TIN",
+        "b":"INT",
+        "c":"KIN",
+        "d":"INK"
+      },
+      "Q5":{
+        "ques": "RSA is also a stream cipher like Merkel-Hellman.",
+        "a":"True",
+        "b":"False"
+      },
+      "Q6":{
+        "ques": "In the RSA algorithm, we select 2 random large values ‘p’ and ‘q’. Which of the following is the property of ‘p’ and ‘q’ ?",
+        "a":"p and q should be divisible by Ф(n)",
+        "b":"p and q should be co-prime",
+        "c":"p and q should be prime",
+        "d":"p/q should give no remainder"
+      },
+      "Q7":{
+        "ques": "In RSA, Ф(n) = _______ in terms of p and q.",
+        "a":"(p)/(q)",
+        "b":"(p)(q)",
+        "c":"(p-1)(q-1)",
+        "d":"(p+1)(q+1)"
+      },
+      "Q8":{
+        "ques": "For p = 11 and q = 19 and choose d=17. Apply RSA algorithm where Cipher message=80 and thus find the plain text.",
+        "a":"54",
+        "b":"43",
+        "c":"5",
+        "d":"24"
+      },
+      "Q9":{
+        "ques": "For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text.",
+        "a":"C=80",
+        "b":"C=92",
+        "c":"C=56",
+        "d":"C=23"
+      }
     }
+  
+  
   
   }
 

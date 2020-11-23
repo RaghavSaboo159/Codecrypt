@@ -34,7 +34,7 @@ function Quiz(){
     return (
       <React.Fragment>
     <p style={{fontSize:"300%" ,marginTop:"2%",color:"black"}}>
-        QUIZZES
+    {t("navigation.3")}
     </p>
 
 <CardDeck style={{marginRight:"2rem " ,marginLeft:"2rem" ,marginTop:"3%"}}>
@@ -81,10 +81,44 @@ function Quiz(){
 </Card.Body>
 </a>
 </Card>
+<Card style={{marginRight:"2 rem", backgroundColor:"pink"}}>
 
-<Card style={{backgroundColor:"pink"}}>
-<Card.Body>
-  </Card.Body></Card>
+<a href="/Quiz6">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz6.topic")}
+</Card.Body>
+</a>
+</Card>
+</CardDeck>
+
+
+
+{/* <iframe width="560" height="315" src="https://www.youtube.com/embed/7bj8p7kzkp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+<CardDeck style={{marginRight:"2rem " ,marginLeft:"2rem" ,marginTop:"3%" , marginBottom:"3%"}}>
+    <Card style={{marginRight:"1rem" ,backgroundColor:"pink"}}>
+ 
+    <a href="/Quiz7">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz7.topic")}
+</Card.Body>
+</a>
+</Card>
+<Card style={{marginRight:"2 rem", backgroundColor:"pink"}}>
+
+<a href="/Quiz8">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz8.topic")}
+</Card.Body>
+</a>
+</Card>
+<Card style={{marginRight:"2 rem", backgroundColor:"pink"}}>
+
+<a href="/Quiz9">
+<Card.Body  style={{color:"Black" ,fontSize:"300%"}} >
+{t("quiz9.topic")}
+</Card.Body>
+</a>
+</Card>
 </CardDeck>
       </React.Fragment>
     );

@@ -22,16 +22,17 @@ import {
   MDBInput,
   MDBCardBody,
 } from "mdbreact";
+import { useTranslation } from "react-i18next";
 
 import emailjs from "emailjs-com";
 import GoogleMapReact from "google-map-react";
 
 function Experiment(){
- 
+  const { t, i18n } = useTranslation();
     return (
       <React.Fragment >
     <p style={{fontSize:"300%" ,marginTop:"2%",color:"black"}}>
-        EXPERIMENTS
+    {t("navigation.2")}
     </p>
 
 <CardDeck style={{marginRight:"2rem " ,marginLeft:"2rem" ,marginTop:"3%"}}>

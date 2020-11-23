@@ -8,6 +8,7 @@ import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import "../css/Lab.css";
 import {Component} from 'react';
+import { useTranslation } from "react-i18next";
 import axios from 'axios';
 // import React, { useState } from 'react';
 // import { Jumbotron } from 'react-bootstrap';
@@ -16,6 +17,7 @@ import "../css/Quiz.css";
 
 
 export default class Lab extends Component {
+    
     
   constructor(props) {
       super(props);
