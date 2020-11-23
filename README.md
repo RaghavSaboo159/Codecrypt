@@ -1,7 +1,7 @@
-# codecrypt
+# Codecrypt
 ### Web app For Information Security
 
-## Setup
+## How to Setup
 
 #### Node
 
@@ -89,7 +89,10 @@ npm run start
 
 Navigate to localhost:3000/ in your browser.
 
-## Lecture Videos
+
+## Content of the webapp
+
+### Lecture Videos
 
 There are lecture videos on the following topics:
 
@@ -111,7 +114,7 @@ All these lectures had been possible due to the Security Paathshala team.
 We have integrated their videos in our app.
 
 
-## Quizzes
+### Quizzes
 
 There are quizzes on the following topics:
 
@@ -126,7 +129,7 @@ There are quizzes on the following topics:
 * Cross Site Scripting
 
 
-## Video Explanations of Cyber Attacks
+### Video Explanations of Cyber Attacks
 
 There are video explanations of the following topics:
 
@@ -137,7 +140,6 @@ There are video explanations of the following topics:
 * SQL Injection
 
 
-## Virtual Lab for Hands-on experimenting
+### Virtual Lab for Hands-on experimenting
 
 There is a virtual experiment for hands-on experience for SQL Injection.
-@saboo lab experiment srif SQL Injection ke liye hi h na ?????????
