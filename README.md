@@ -112,7 +112,7 @@ There are lecture videos on the following topics:
 * Crypto Solutions To Oblivious Transfers
 * Oblivious Transfers
 
-![Lecture Videos](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/lecture.png)
+![Lecture Videos](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/lecture.jpeg)
 
 All these lectures had been possible due to the Security Paathshala team.
 We have integrated their videos in our app.
@@ -134,10 +134,10 @@ There are quizzes on the following topics:
 ![Quiz Topics](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_english.jpeg)
 
 
-![Quiz Question](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/score.png)
+![Quiz Question](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/score.jpeg)
 
 
-![Quiz Score](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/question.png)
+![Quiz Score](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/question.jpeg)
 
 
 ### Video Explanations of Cyber Attacks
