@@ -14,11 +14,11 @@ import {Jumbotron } from "react-bootstrap";
 
 
 
-function first(){    
+function firstrep(){    
   const history = useHistory();
  
   const routeChange=()=> {
-    let path = `./Labrep`;
+    let path = `./Lab`;
     history.push(path);
   }
 
@@ -35,7 +35,7 @@ function first(){
         <h4 style={mystyle}>Hello, world!</h4>
         <Jumbotron style={{color:"pink", backgroundColor:"#BEBEBE", height:"100%", width:"50%",marginLeft:"25%"}}>
         <div style={{color:"black", fontSize:"100%"}}> 
-        Click on Logout Button!
+        Now as you can see you are logged into your account!
         </div>
     </Jumbotron>
     </div>
@@ -43,4 +43,4 @@ function first(){
         )
   
 }
-export default first;
+export default firstrep;

@@ -15,7 +15,7 @@ import "../css/Quiz.css";
 // import { useTranslation } from "react-i18next";
 
 
-export default class Lab extends Component {
+export default class Labrep extends Component {
     
   constructor(props) {
       super(props);
@@ -55,7 +55,7 @@ export default class Lab extends Component {
            .then(res => {console.log(res.data);
             if(res.data=="correct")
             {
-              this.props.history.push("./first");
+              this.props.history.push("./firstrep");
 
             }
             else{
@@ -98,7 +98,7 @@ export default class Lab extends Component {
               </form>
                <Jumbotron style={{color:"pink", backgroundColor:"#BEBEBE", height:"100%", width:"50%",marginLeft:"25%"}}>
                    <div style={{color:"black", fontSize:"100%"}}> 
-                   Enter the Username as test and password as test and click on sign in
+                   Enter the Username as test and password as test' or '1=1 and click on sign in
                    </div>
                </Jumbotron>
 
