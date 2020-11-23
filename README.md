@@ -67,7 +67,7 @@ CREATE TABLE `accounts` (
 insert into users (username,password) values (test,test);
 ```
 
-This will open the mySQL shell with that database loaded and this particular entr.y
+This will open the mySQL shell with that database loaded and this particular entry.
 
 
 Run Express:
@@ -112,6 +112,8 @@ There are lecture videos on the following topics:
 * Crypto Solutions To Oblivious Transfers
 * Oblivious Transfers
 
+![Lecture Videos](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/lecture.png)
+
 All these lectures had been possible due to the Security Paathshala team.
 We have integrated their videos in our app.
 
@@ -129,10 +131,13 @@ There are quizzes on the following topics:
 * RSA Algorithm
 * SQL Injection
 * Cross Site Scripting
-![Quiz in English](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_english.jpeg)
+![Quiz Topics](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_english.jpeg)
 
 
-![Quiz in Hindi](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_hindi.jpeg)
+![Quiz Question](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/score.png)
+
+
+![Quiz Score](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/question.png)
 
 
 ### Video Explanations of Cyber Attacks
@@ -156,3 +161,4 @@ There are video explanations of the following topics:
 ### Virtual Lab for Hands-on experimenting
 
 There is a virtual experiment for hands-on experience for SQL Injection.
+![Lab](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/lab.png)
