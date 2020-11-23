@@ -130,6 +130,8 @@ There are quizzes on the following topics:
 * SQL Injection
 * Cross Site Scripting
 ![Quiz in English](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_english.jpeg)
+
+
 ![Quiz in Hindi](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_hindi.jpeg)
 
 
@@ -143,7 +145,11 @@ There are video explanations of the following topics:
 * DNS Spoofing
 * SQL Injection
 ![Experiments](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/videos.jpeg)
+
+
 ![Experiments in English](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/experiments_in_english.jpeg)
+
+
 ![Experiments in Hindi](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/experiments_in_hindi.jpeg)
 
 
