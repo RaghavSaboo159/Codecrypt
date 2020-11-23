@@ -89,6 +89,8 @@ npm run start
 
 Navigate to localhost:3000/ in your browser.
 
+**NOTE**: This webapp is also hosted on Heroku and you can access it from here [CodeCrypt](https://knowledge-secure.herokuapp.com/ "CodeCrypt"). If you wish to run our webapp via the same, just shoot the backend and then visit the website. You are all set now.
+
 
 ## Content of the webapp
 
@@ -127,6 +129,8 @@ There are quizzes on the following topics:
 * RSA Algorithm
 * SQL Injection
 * Cross Site Scripting
+![Quiz in English](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_english.jpeg)
+![Quiz in Hindi](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/quiz_in_hindi.jpeg)
 
 
 ### Video Explanations of Cyber Attacks
@@ -138,6 +142,9 @@ There are video explanations of the following topics:
 * DDoS Attack
 * DNS Spoofing
 * SQL Injection
+![Experiments](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/videos.jpeg)
+![Experiments in English](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/experiments_in_english.jpeg)
+![Experiments in Hindi](https://github.com/RaghavSaboo159/codecrypt/blob/main/images/experiments_in_hindi.jpeg)
 
 
 ### Virtual Lab for Hands-on experimenting
